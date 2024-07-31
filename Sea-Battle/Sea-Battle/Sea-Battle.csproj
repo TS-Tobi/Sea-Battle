@@ -94,5 +94,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Audio\" />
+    <Folder Include="Assets\Fonts\" />
+    <Folder Include="Assets\Images\Backgrounds\Input_fields\" />
+    <Folder Include="Assets\Images\Backgrounds\Popups\" />
+    <Folder Include="Assets\Images\Buttons\" />
+    <Folder Include="Assets\Images\Icons\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Models\" />
+    <Folder Include="Pages\" />
+    <Folder Include="Services\" />
+    <Folder Include="Styles\" />
+    <Folder Include="Themes\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
