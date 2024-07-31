@@ -97,16 +97,114 @@
   <ItemGroup>
     <Folder Include="Assets\Audio\" />
     <Folder Include="Assets\Fonts\" />
-    <Folder Include="Assets\Images\Backgrounds\Input_fields\" />
-    <Folder Include="Assets\Images\Backgrounds\Popups\" />
-    <Folder Include="Assets\Images\Buttons\" />
-    <Folder Include="Assets\Images\Icons\" />
     <Folder Include="Helpers\" />
     <Folder Include="Models\" />
     <Folder Include="Pages\" />
     <Folder Include="Services\" />
     <Folder Include="Styles\" />
     <Folder Include="Themes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Icons\icon_arrow_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Icons\icon_arrow_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Icons\icon_music.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Icons\icon_settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Icons\icon_sound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Icons\icon_toggle_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Icons\icon_toggle_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_continue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_continue_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_create.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_create_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_exit_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_leave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_leave_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_raw_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_raw_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_raw_yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_start_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_start_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_start_menu_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Backgrounds\background_ships.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Backgrounds\background_waves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Backgrounds\Popups\popup_create_game.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Backgrounds\Popups\popup_escape_screen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Backgrounds\Popups\popup_ipaddress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Backgrounds\Popups\popup_raw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Backgrounds\Popups\popup_settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Backgrounds\Popups\popup_start_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Backgrounds\Popups\popup_waiting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Backgrounds\Input_fields\input_field_player.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Backgrounds\Input_fields\input_field_raw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Backgrounds\Input_fields\input_field_settings.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
