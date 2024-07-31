@@ -55,6 +55,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Services\ClientConnection.cs" />
+    <Compile Include="Services\StaticDataService.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -105,7 +107,6 @@
     <Folder Include="Assets\Audio\" />
     <Folder Include="Assets\Fonts\" />
     <Folder Include="Pages\" />
-    <Folder Include="Services\" />
     <Folder Include="Styles\" />
     <Folder Include="Themes\" />
   </ItemGroup>
@@ -210,6 +211,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Images\Backgrounds\Input_fields\input_field_settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Services\MessageLog.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

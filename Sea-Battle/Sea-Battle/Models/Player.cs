@@ -6,6 +6,7 @@ using System.Net.Sockets;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using Sea_Battle.Services;
 
 namespace Sea_Battle.Models
 {
