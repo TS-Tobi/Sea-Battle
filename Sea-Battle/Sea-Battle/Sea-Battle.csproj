@@ -55,8 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DropdownMenu.cs" />
     <Compile Include="Services\ClientConnection.cs" />
     <Compile Include="Services\StaticDataService.cs" />
+    <Compile Include="Styles\PlayerBox.xaml.cs">
+      <DependentUpon>PlayerBox.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -70,6 +74,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Styles\PlayerBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\AssignEnemyMessage.cs" />
@@ -107,8 +119,6 @@
     <Folder Include="Assets\Audio\" />
     <Folder Include="Assets\Fonts\" />
     <Folder Include="Pages\" />
-    <Folder Include="Styles\" />
-    <Folder Include="Themes\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Images\Icons\icon_arrow_back.png" />
