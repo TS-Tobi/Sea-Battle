@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <!-- This is where the frame control that hosts the various pages is defined -->
+        <Frame x:Name="StartFrame" NavigationUIVisibility="Hidden"/>
+
+        <!-- This frame is to show the escape-screen -->
+        <Frame x:Name="OverFrame" Background="Transparent" NavigationUIVisibility="Hidden" Visibility="Collapsed"/>
     </Grid>
 </Window>

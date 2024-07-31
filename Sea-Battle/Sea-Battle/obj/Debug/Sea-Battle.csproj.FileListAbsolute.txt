@@ -1,5 +1,4 @@
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Sea-Battle.csproj.AssemblyReference.cache
-C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\MainWindow.g.cs
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Styles\PlayerBox.g.cs
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\App.g.cs
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Sea-Battle_MarkupCompile.cache
@@ -8,7 +7,6 @@ C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\bin\Debug\Sea-Battle.exe
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\bin\Debug\Sea-Battle.exe
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\bin\Debug\Sea-Battle.pdb
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\MainWindow.baml
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Styles\PlayerBox.baml
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Themes\Generic.baml
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Sea-Battle.g.resources
@@ -17,3 +15,17 @@ C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Sea-Battle.csp
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Sea-Battle.csproj.CoreCompileInputs.cache
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Sea-Battle.exe
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Sea-Battle.pdb
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\MainWindow.g.cs
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\MainWindow.baml
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\EscapeScreen.g.cs
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\StartMenu.g.cs
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\CreateAGameMenu.g.cs
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\SettingsMenu.g.cs
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\TournamentMenu.g.cs
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\WaitingMenu.g.cs
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\CreateAGameMenu.baml
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\EscapeScreen.baml
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\SettingsMenu.baml
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\StartMenu.baml
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\TournamentMenu.baml
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\WaitingMenu.baml

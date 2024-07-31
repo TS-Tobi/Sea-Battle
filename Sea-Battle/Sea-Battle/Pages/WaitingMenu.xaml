@@ -1,0 +1,40 @@
+﻿<Page x:Class="Sea_Battle.Pages.WaitingMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Sea_Battle.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="WaitingMenu">
+
+    <Grid>
+        <Image Source="/Assets/Images/Backgrounds/background_waves.png" Stretch="UniformToFill" ></Image>
+        <Viewbox Stretch="Uniform">
+            <Canvas Width="800" Height="450">
+                <Image Canvas.Left ="150" Canvas.Top="50" Width="500" Height="350" Source="/Assets/Images/Backgrounds/Popups/popup_waiting.png"></Image>
+
+                <!--Player number-->
+                <TextBlock x:Name="CurrentPlayerNumber" Canvas.Left ="440" Canvas.Top="66" Width="29" Height="30" FontFamily="Lilita One" FontSize="25" Foreground="White" TextAlignment="Center">0</TextBlock>
+                <TextBlock Canvas.Left ="467" Canvas.Top="66" Width="29" Height="30" FontFamily="Lilita One" FontSize="25" Foreground="White">/</TextBlock>
+                <TextBlock x:Name="MaxPlayerNumber" Canvas.Left ="480" Canvas.Top="66" Width="29" Height="30" FontFamily="Lilita One" FontSize="25" Foreground="White" TextAlignment="Center">0</TextBlock>
+
+                <!--Player list-->
+                <WrapPanel x:Name="PlayerContainer" Canvas.Left ="172" Canvas.Top="108" Width="450" Height="200" Orientation="Horizontal"></WrapPanel>
+
+                <!--Back button-->
+                <Image Canvas.Left ="205" Canvas.Top="320" Width="40" Height="40" Source="/Assets/Images/Icons/icon_arrow_back.png"></Image>
+                <Button Canvas.Left ="205" Canvas.Top="320" Width="40" Height="40" Click="BackButton_Click" Opacity="0"></Button>
+
+                <!--Start button-->
+                <Image x:Name="StartButtonImage" Canvas.Left ="510" Canvas.Top="310" Width="90" Height="55" Source="/Assets/Images/Buttons/button_start.png"></Image>
+                <Button Canvas.Left ="510" Canvas.Top="310" Width="90" Height="55" Click="StartButton_Click" Opacity="0"></Button>
+
+                <!--IPAddress-->
+                <Image Canvas.Left ="330" Canvas.Top="395" Width="140" Height="45" Source="/Assets/Images/Backgrounds/Popups/popup_ipaddress.png"></Image>
+                <TextBlock x:Name ="ServerIPAddress" Canvas.Left ="365" Canvas.Top="409" Width="100" Height="18" FontFamily="Lilita One" FontSize="13" Foreground="White" TextAlignment="Center">127.0.0.1</TextBlock>
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</Page>

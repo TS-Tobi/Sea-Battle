@@ -1,0 +1,114 @@
+﻿<Page x:Class="Sea_Battle.Pages.SettingsMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Sea_Battle.Pages"
+      xmlns:custom="clr-namespace:Sea_Battle"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SettingsMenu">
+
+    <Grid>
+        <Image Source="/Assets/Images/Backgrounds/background_waves.png" Stretch="UniformToFill" ></Image>
+        <Viewbox Stretch="Uniform">
+            <Canvas Width="800" Height="450">
+                <Image Canvas.Left ="150" Canvas.Top="50" Width="500" Height="350" Source="/Assets/Images/Backgrounds/Popups/popup_settings.png"></Image>
+
+                <!--Exit button-->
+                <Image x:Name="ExitButtonImage" Canvas.Left ="548" Canvas.Top="50" Width="50" Height="50" Source="/Assets/Images/Buttons/button_exit.png"></Image>
+                <Button Canvas.Left ="548" Canvas.Top="50" Width="50" Height="50" Click="ExitButton_Click" Opacity="0"></Button>
+
+                <!--Sound settings-->
+                <Image Canvas.Left ="250" Canvas.Top="130" Width="300" Height="40" Stretch="Fill" Source="/Assets/Images/Backgrounds/Input_fields/input_field_settings.png"></Image>
+                <Image Canvas.Left ="260" Canvas.Top="135" Width="30" Height="30" Source="/Assets/Images/Icons/icon_sound.png"></Image>
+
+                <Slider x:Name="SoundSlider" Canvas.Left ="338" Canvas.Top="141" Width="200" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center"></Slider>
+
+                <!--Music settings-->
+                <Image Canvas.Left ="250" Canvas.Top="190" Width="300" Height="40" Stretch="Fill" Source="/Assets/Images/Backgrounds/Input_fields/input_field_settings.png"></Image>
+                <Image Canvas.Left ="260" Canvas.Top="195" Width="30" Height="30" Source="/Assets/Images/Icons/icon_music.png"></Image>
+
+                <Slider x:Name="MusicSlider" Canvas.Left ="338" Canvas.Top="201" Width="200" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center"></Slider>
+
+
+                <!--Language settings-->
+                <Image Canvas.Left ="250" Canvas.Top="250" Width="300" Height="40" Stretch="Fill" Source="/Assets/Images/Backgrounds/Input_fields/input_field_settings.png"></Image>
+                <TextBlock Canvas.Left ="260" Canvas.Top="255" Width="110" Height="30" FontSize="25" Foreground="White" FontFamily="Lilita One">Language</TextBlock>
+
+                <Image Canvas.Left="400" Canvas.Top="256" Width="120" Height="30" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png"></Image>
+                <TextBlock x:Name="CurrentLanguageText" Canvas.Left="405" Canvas.Top="261" Width="85" Height="20" FontSize="18" Foreground="White" FontFamily="Lilita One">English</TextBlock>
+
+                <!--Dropdown menu max.player-->
+                <custom:DropdownMenu Canvas.Left="496" Canvas.Top="262">
+                    <custom:DropdownMenu.Resources>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Setter Property="BorderThickness" Value="0"/>
+                            <Setter Property="Padding" Value="10 5"/>
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border
+                                        Padding="{TemplateBinding Padding}"
+                                        Background="{TemplateBinding Background}"
+                                        BorderBrush="{TemplateBinding BorderBrush}"
+                                        BorderThickness="{TemplateBinding BorderThickness}">
+                                            <ContentPresenter 
+                                            Content="{TemplateBinding Content}" 
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Trigger.EnterActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ColorAnimation 
+                                                Storyboard.TargetProperty="Background.(SolidColorBrush.Color)" 
+                                                To="LightGray" 
+                                                Duration="0:0:0.1"/>
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.EnterActions>
+                                    <Trigger.ExitActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ColorAnimation 
+                                                Storyboard.TargetProperty="Background.(SolidColorBrush.Color)" 
+                                                To="Transparent" 
+                                                Duration="0:0:0.1"/>
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.ExitActions>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </custom:DropdownMenu.Resources>
+                    <Border
+                    Background="Gray"
+                    BorderBrush="LightGray"
+                    BorderThickness="1">
+                        <StackPanel>
+                            <Button Click="DDLanguage" Content="English"/>
+                        </StackPanel>
+                    </Border>
+                </custom:DropdownMenu>
+
+
+                <!--Fullscreen settings-->
+                <Image Canvas.Left ="250" Canvas.Top="310" Width="300" Height="40" Stretch="Fill" Source="/Assets/Images/Backgrounds/Input_fields/input_field_settings.png"></Image>
+                <TextBlock Canvas.Left ="260" Canvas.Top="315" Width="110" Height="30" FontSize="25" Foreground="White" FontFamily="Lilita One">Fullscreen</TextBlock>
+
+                <Image x:Name="FullscreenToggleImage" Canvas.Left ="430" Canvas.Top="315" Width="60" Height="30" Source="/Assets/Images/Icons/icon_toggle_off.png" HorizontalAlignment="Left" VerticalAlignment="Center"></Image>
+                <Button Canvas.Left ="430" Canvas.Top="315" Width="60" Height="30" Click="FullscreenToggle" Opacity="0" HorizontalAlignment="Left" VerticalAlignment="Center"></Button>
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</Page>

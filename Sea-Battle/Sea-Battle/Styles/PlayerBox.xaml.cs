@@ -20,9 +20,27 @@ namespace Sea_Battle.Styles
     /// </summary>
     public partial class PlayerBox : UserControl
     {
+        /*
+         The PlayerBox class is a custom UserControl that displays a player's name and status.
+         It contains methods for setting the player name and player status, as well as a method for getting the player name.
+         */
         public PlayerBox()
         {
             InitializeComponent();
+        }
+        public void SetPlayerName(string playerName)
+        {
+            PlayerNameLabel.Text = playerName;
+        }
+
+        public void SetPlayerStatus(bool ready)
+        {
+            StatusLabel.Text = ready ? "Ready" : "Waiting";
+            StatusLabel.Foreground = ready ? new SolidColorBrush((Color)ColorConverter.ConvertFromString("#00ff00")) : new SolidColorBrush((Color)ColorConverter.ConvertFromString("#ff0000"));
+        }
+        public string GetPlayerName()
+        {
+            return PlayerNameLabel.Text;
         }
     }
 }

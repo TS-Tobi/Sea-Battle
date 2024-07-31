@@ -1,0 +1,43 @@
+﻿<Page x:Class="Sea_Battle.Pages.EscapeScreen"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Sea_Battle.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="EscapeScreen">
+
+    <Grid Background="#AA000000">
+        <Viewbox Stretch="Uniform">
+            <Canvas Width="800" Height="450">
+                <Image Canvas.Left ="275" Canvas.Top="100" Width="250" Height="250" Source="/Assets/Images/Backgrounds/Popups/popup_escape_screen.png"></Image>
+
+                <!--Exit button-->
+                <Image x:Name="ExitButtonImage" Canvas.Left ="489" Canvas.Top="99" Width="50" Height="50" Source="/Assets/Images/Buttons/button_exit.png"></Image>
+                <Button Canvas.Left ="489" Canvas.Top="99" Width="50" Height="50" Click="ExitButton_Click" Opacity="0"></Button>
+
+                <!--Setting button-->
+                <Image Canvas.Left ="295" Canvas.Top="140" Width="40" Height="40" Stretch="Fill" Source="/Assets/Images/Backgrounds/Input_fields/input_field_settings.png"></Image>
+                <Image x:Name="SettingsButtonImage" Canvas.Left ="298" Canvas.Top="142" Width="35" Height="35" Source="/Assets/Images/Icons/icon_settings.png"></Image>
+                <Button Canvas.Left ="298" Canvas.Top="142" Width="35" Height="35" Click="SettingsButton_Click" Opacity="0"></Button>
+
+                <!--Continue button-->
+                <Image x:Name="ContinueButtonImage" Canvas.Left ="360" Canvas.Top="180" Width="80" Height="50" Source="/Assets/Images/Buttons/button_continue.png"></Image>
+                <Button Canvas.Left ="360" Canvas.Top="180" Width="80" Height="50" Click="ContinueButton_Click" Opacity="0"></Button>
+
+
+                <!--StartMenu button-->
+                <Image x:Name="StartMenuButtonImage" Canvas.Left ="360" Canvas.Top="230" Width="80" Height="50" Source="/Assets/Images/Buttons/button_start_menu.png"></Image>
+                <Button Canvas.Left ="360" Canvas.Top="230" Width="80" Height="50" Click="StartMenuButton_Click" Opacity="0"></Button>
+
+
+                <!--Leave game button-->
+                <Image x:Name="LeaveButtonImage" Canvas.Left ="360" Canvas.Top="280" Width="80" Height="50" Source="/Assets/Images/Buttons/button_leave.png"></Image>
+                <Button Canvas.Left ="360" Canvas.Top="280" Width="80" Height="50" Click="LeaveButton_Click" Opacity="0"></Button>
+
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</Page>

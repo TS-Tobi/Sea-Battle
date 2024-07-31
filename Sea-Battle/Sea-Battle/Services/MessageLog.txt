@@ -1,0 +1,14 @@
+31.07.2024 15:54:20 +02:00  in Message: Der Spieler Tobi-Client will dem Spiel Test beitreten
+31.07.2024 15:54:20 +02:00 out Message: Dem Spieler Tobi-Client wurde die Verbindung bestätigt
+31.07.2024 15:54:20 +02:00 out Message: Dem Spieler Tobi-Client wurde die Verbindung bestätigt
+31.07.2024 15:54:20 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+31.07.2024 15:54:20 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+31.07.2024 15:54:20 +02:00  in Message: Der Spieler Tobi-Client hat seine Verbindung zum Server bestätigt
+31.07.2024 15:54:24 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+31.07.2024 15:54:24 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+31.07.2024 15:54:24 +02:00  in Message: Der Spieler Tobi-Client hat seine Verbindung zum Server bestätigt
+31.07.2024 15:54:28 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+31.07.2024 15:54:28 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+31.07.2024 15:54:28 +02:00  in Message: Der Spieler Tobi-Client hat seine Verbindung zum Server bestätigt
+31.07.2024 15:54:29 +02:00 out Message: Dem Spieler Tobi-Client wurde Mittgeteilt, dass das Spiel Test startet
+31.07.2024 15:54:29 +02:00 out AssignEnemyMessage: Dem Spieler Tobi-Client wurde der Gegner Computer zugewiesen
