@@ -3,35 +3,63 @@
   "WorkspaceRootPath": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|c:\\users\\tb_sc\\desktop\\sea-battle\\sea-battle\\sea-battle\\pages\\connectionmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\pages\\connectionmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|c:\\users\\tb_sc\\desktop\\sea-battle\\sea-battle\\sea-battle\\pages\\createagamemenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\pages\\createagamemenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|c:\\users\\tb_sc\\desktop\\sea-battle\\sea-battle\\sea-battle\\pages\\connectionmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\pages\\connectionmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|c:\\users\\tb_sc\\desktop\\sea-battle\\sea-battle\\sea-battle\\pages\\placeshipsmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\pages\\placeshipsmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\sea-battle\\pages\\createagamemenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\pages\\createagamemenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|c:\\users\\tb_sc\\desktop\\sea-battle\\sea-battle\\sea-battle\\pages\\startmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\pages\\startmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\sea-battle\\pages\\startmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\pages\\startmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\sea-battle\\services\\staticdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\services\\staticdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\sea-battle\\services\\clientconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\services\\clientconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|c:\\users\\tb_sc\\desktop\\sea-battle\\sea-battle\\sea-battle\\pages\\escapescreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\pages\\escapescreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|c:\\users\\tb_sc\\desktop\\sea-battle\\sea-battle\\sea-battle\\pages\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\sea-battle\\pages\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\pages\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|c:\\users\\tb_sc\\desktop\\sea-battle\\sea-battle\\sea-battle\\pages\\settingsmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\sea-battle\\pages\\settingsmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\pages\\settingsmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|c:\\users\\tb_sc\\desktop\\sea-battle\\sea-battle\\sea-battle\\pages\\startmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\pages\\startmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\sea-battle\\pages\\tournamentmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\pages\\tournamentmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|c:\\users\\tb_sc\\desktop\\sea-battle\\sea-battle\\sea-battle\\pages\\waitingmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\sea-battle\\pages\\waitingmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\pages\\waitingmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|c:\\users\\tb_sc\\desktop\\sea-battle\\sea-battle\\sea-battle\\pages\\createagamemenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\pages\\createagamemenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|c:\\users\\tb_sc\\desktop\\sea-battle\\sea-battle\\sea-battle\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\sea-battle\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -57,14 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\sea-battle\\styles\\playerbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\styles\\playerbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\sea-battle\\services\\staticdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\services\\staticdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\sea-battle\\services\\clientconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|solutionrelative:sea-battle\\services\\clientconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D651AEC-6C08-4521-87E0-9F6493E23B14}|Sea-Battle\\Sea-Battle.csproj|C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\sea-battle\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,55 +150,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EscapeScreen.xaml",
-              "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\EscapeScreen.xaml",
-              "RelativeDocumentMoniker": "Sea-Battle\\Pages\\EscapeScreen.xaml",
-              "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\EscapeScreen.xaml",
-              "RelativeToolTip": "Sea-Battle\\Pages\\EscapeScreen.xaml",
+              "DocumentIndex": 3,
+              "Title": "PlaceShipsMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\PlaceShipsMenu.xaml",
+              "RelativeDocumentMoniker": "Sea-Battle\\Pages\\PlaceShipsMenu.xaml",
+              "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\PlaceShipsMenu.xaml",
+              "RelativeToolTip": "Sea-Battle\\Pages\\PlaceShipsMenu.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-02T07:06:22.713Z",
+              "WhenOpened": "2024-10-16T18:04:38.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConnectionMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\ConnectionMenu.xaml.cs",
+              "RelativeDocumentMoniker": "Sea-Battle\\Pages\\ConnectionMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\ConnectionMenu.xaml.cs",
+              "RelativeToolTip": "Sea-Battle\\Pages\\ConnectionMenu.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:51:51.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Sea-Battle\\Pages\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\MainWindow.xaml",
-              "RelativeToolTip": "Sea-Battle\\Pages\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-02T07:06:21.295Z",
+              "Title": "CreateAGameMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\CreateAGameMenu.xaml.cs",
+              "RelativeDocumentMoniker": "Sea-Battle\\Pages\\CreateAGameMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\CreateAGameMenu.xaml.cs",
+              "RelativeToolTip": "Sea-Battle\\Pages\\CreateAGameMenu.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:51:30.371Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ConnectionMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\ConnectionMenu.xaml",
+              "RelativeDocumentMoniker": "Sea-Battle\\Pages\\ConnectionMenu.xaml",
+              "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\ConnectionMenu.xaml",
+              "RelativeToolTip": "Sea-Battle\\Pages\\ConnectionMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-16T17:42:44.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StartMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\StartMenu.xaml.cs",
+              "RelativeDocumentMoniker": "Sea-Battle\\Pages\\StartMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\StartMenu.xaml.cs",
+              "RelativeToolTip": "Sea-Battle\\Pages\\StartMenu.xaml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwDkAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:33:44.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "SettingsMenu.xaml",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\SettingsMenu.xaml",
               "RelativeDocumentMoniker": "Sea-Battle\\Pages\\SettingsMenu.xaml",
               "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\SettingsMenu.xaml",
               "RelativeToolTip": "Sea-Battle\\Pages\\SettingsMenu.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-02T07:06:19.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T07:06:19.185Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "WaitingMenu.xaml",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\WaitingMenu.xaml",
               "RelativeDocumentMoniker": "Sea-Battle\\Pages\\WaitingMenu.xaml",
               "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\WaitingMenu.xaml",
               "RelativeToolTip": "Sea-Battle\\Pages\\WaitingMenu.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-02T07:06:15.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T07:06:15.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "CreateAGameMenu.xaml",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\CreateAGameMenu.xaml",
               "RelativeDocumentMoniker": "Sea-Battle\\Pages\\CreateAGameMenu.xaml",
@@ -190,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "StartMenu.xaml",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\StartMenu.xaml",
               "RelativeDocumentMoniker": "Sea-Battle\\Pages\\StartMenu.xaml",
@@ -202,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "AssignEnemyMessage.cs",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Models\\AssignEnemyMessage.cs",
               "RelativeDocumentMoniker": "Sea-Battle\\Models\\AssignEnemyMessage.cs",
@@ -214,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "AttackMessage.cs",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Models\\AttackMessage.cs",
               "RelativeDocumentMoniker": "Sea-Battle\\Models\\AttackMessage.cs",
@@ -226,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Server.cs",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Models\\Server.cs",
               "RelativeDocumentMoniker": "Sea-Battle\\Models\\Server.cs",
@@ -239,6 +296,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "StaticDataService.cs",
+              "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Services\\StaticDataService.cs",
+              "RelativeDocumentMoniker": "Sea-Battle\\Services\\StaticDataService.cs",
+              "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Services\\StaticDataService.cs",
+              "RelativeToolTip": "Sea-Battle\\Services\\StaticDataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:23:12.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientConnection.cs",
+              "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Services\\ClientConnection.cs",
+              "RelativeDocumentMoniker": "Sea-Battle\\Services\\ClientConnection.cs",
+              "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Services\\ClientConnection.cs",
+              "RelativeToolTip": "Sea-Battle\\Services\\ClientConnection.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAMAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:22:52.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Sea-Battle\\Pages\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\MainWindow.xaml",
+              "RelativeToolTip": "Sea-Battle\\Pages\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-02T07:06:21.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EscapeScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\EscapeScreen.xaml",
+              "RelativeDocumentMoniker": "Sea-Battle\\Pages\\EscapeScreen.xaml",
+              "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\EscapeScreen.xaml",
+              "RelativeToolTip": "Sea-Battle\\Pages\\EscapeScreen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-02T07:06:22.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Message.cs",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Models\\Message.cs",
               "RelativeDocumentMoniker": "Sea-Battle\\Models\\Message.cs",
@@ -246,12 +352,11 @@
               "RelativeToolTip": "Sea-Battle\\Models\\Message.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T13:15:48.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T13:15:48.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "TournamentMenu.xaml.cs",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\TournamentMenu.xaml.cs",
               "RelativeDocumentMoniker": "Sea-Battle\\Pages\\TournamentMenu.xaml.cs",
@@ -263,19 +368,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "TournamentMenu.xaml",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\TournamentMenu.xaml",
               "RelativeDocumentMoniker": "Sea-Battle\\Pages\\TournamentMenu.xaml",
               "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Pages\\TournamentMenu.xaml",
               "RelativeToolTip": "Sea-Battle\\Pages\\TournamentMenu.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-21T08:27:48.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T08:27:48.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\App.xaml",
               "RelativeDocumentMoniker": "Sea-Battle\\App.xaml",
@@ -287,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "PlayerBox.xaml",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Styles\\PlayerBox.xaml",
               "RelativeDocumentMoniker": "Sea-Battle\\Styles\\PlayerBox.xaml",
@@ -298,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "MessageLog.txt",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Services\\MessageLog.txt",
               "RelativeDocumentMoniker": "Sea-Battle\\Services\\MessageLog.txt",
@@ -310,31 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "StaticDataService.cs",
-              "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Services\\StaticDataService.cs",
-              "RelativeDocumentMoniker": "Sea-Battle\\Services\\StaticDataService.cs",
-              "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Services\\StaticDataService.cs",
-              "RelativeToolTip": "Sea-Battle\\Services\\StaticDataService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T13:23:12.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ClientConnection.cs",
-              "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Services\\ClientConnection.cs",
-              "RelativeDocumentMoniker": "Sea-Battle\\Services\\ClientConnection.cs",
-              "ToolTip": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Services\\ClientConnection.cs",
-              "RelativeToolTip": "Sea-Battle\\Services\\ClientConnection.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAMAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T13:22:52.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "Generic.xaml",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Themes\\Generic.xaml",
               "RelativeDocumentMoniker": "Sea-Battle\\Themes\\Generic.xaml",
@@ -346,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "PlayerListMessage.cs",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Models\\PlayerListMessage.cs",
               "RelativeDocumentMoniker": "Sea-Battle\\Models\\PlayerListMessage.cs",
@@ -358,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "DropdownMenu.cs",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\DropdownMenu.cs",
               "RelativeDocumentMoniker": "Sea-Battle\\DropdownMenu.cs",
@@ -370,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Models\\Player.cs",
               "RelativeDocumentMoniker": "Sea-Battle\\Models\\Player.cs",
@@ -382,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "TextBlockInfo.cs",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\Helpers\\TextBlockInfo.cs",
               "RelativeDocumentMoniker": "Sea-Battle\\Helpers\\TextBlockInfo.cs",
@@ -394,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Sea-Battle\\MainWindow.xaml",
@@ -405,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\tb_sc\\Desktop\\Sea-Battle\\Sea-Battle\\Sea-Battle\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Sea-Battle\\MainWindow.xaml.cs",

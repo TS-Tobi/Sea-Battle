@@ -29,3 +29,7 @@ C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\Settings
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\StartMenu.baml
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\TournamentMenu.baml
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\WaitingMenu.baml
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\ConnectionMenu.g.cs
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\ConnectionMenu.baml
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\PlaceShipsMenu.g.cs
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\PlaceShipsMenu.baml

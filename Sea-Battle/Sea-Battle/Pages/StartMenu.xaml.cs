@@ -31,18 +31,31 @@ namespace Sea_Battle.Pages
             InitializeComponent();
         }
 
-        private async void CreateButton_Click(object sender, RoutedEventArgs e)
+        private async void HostButton_Click(object sender, RoutedEventArgs e)
         {
             /*         
-             Handles the event when the "Create" button is clicked.
-             Navigates to the create a game page.
-             */
+            Handles the event when the "Host" button is clicked.
+            Navigates to the create a game page.
+            */
 
             //Button press animation
-            CreateButtonImage.Source = new BitmapImage(new Uri("/Assets/Images/Buttons/button_create_down.png", UriKind.RelativeOrAbsolute));
+            HostButtonImage.Source = new BitmapImage(new Uri("/Assets/Images/Buttons/button_host_down.png", UriKind.RelativeOrAbsolute));
             await Task.Delay(300);
 
             StaticDataService.MainFrame.Navigate(new Uri("/Pages/CreateAGameMenu.xaml", UriKind.Relative));
+        }
+        private async void PlayButton_Click(object sender, RoutedEventArgs e)
+        {
+            /*         
+            Handles the event when the "Play" button is clicked.
+            Navigates to the connection page.
+            */
+
+            //Button press animation
+            PlayButtonImage.Source = new BitmapImage(new Uri("/Assets/Images/Buttons/button_play_down.png", UriKind.RelativeOrAbsolute));
+            await Task.Delay(300);
+
+            StaticDataService.MainFrame.Navigate(new Uri("/Pages/ConnectionMenu.xaml", UriKind.Relative));
         }
         private void SettingsButton_Click(object sender, RoutedEventArgs e)
         {

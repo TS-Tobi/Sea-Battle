@@ -1,0 +1,22 @@
+﻿<Page x:Class="Sea_Battle.Pages.PlaceShipsMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Sea_Battle.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PlaceShipsMenu">
+
+    <Grid>
+        <Image Source="/Assets/Images/Backgrounds/background_waves.png" Stretch="UniformToFill" ></Image>
+        <Viewbox Stretch="Uniform">
+            <Canvas Width="800" Height="450">
+                <Image Canvas.Left ="150" Canvas.Top="50" Width="500" Height="350" Source="/Assets/Images/Backgrounds/Popups/popup_raw.png"></Image>
+
+               
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</Page>

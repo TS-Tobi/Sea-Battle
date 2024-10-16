@@ -1,0 +1,40 @@
+﻿<Page x:Class="Sea_Battle.Pages.ConnectionMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Sea_Battle.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ConnectionMenu">
+
+    <Grid>
+        <Image Source="/Assets/Images/Backgrounds/background_waves.png" Stretch="UniformToFill" ></Image>
+        <Viewbox Stretch="Uniform">
+            <Canvas Width="800" Height="450">
+                <Image Canvas.Left ="150" Canvas.Top="50" Width="500" Height="350" Source="/Assets/Images/Backgrounds/Popups/popup_create_game.png"></Image>
+
+                <!--Input name-->
+                <Image Canvas.Left="340" Canvas.Top="160" Width="120" Height="25" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" HorizontalAlignment="Center" VerticalAlignment="Top"></Image>
+                <TextBlock Canvas.Left="342" Canvas.Top="145" Width="35" Height="15" FontFamily="Lilita One" FontSize="12" Foreground="White">Name:</TextBlock>
+                <TextBox x:Name="NameInputField" Canvas.Left="342" Canvas.Top="162" Width="110" Height="20" FontFamily="Lilita One" FontSize="16" Foreground="White" Background="Transparent" BorderThickness="0" VerticalContentAlignment="Center"></TextBox>
+
+
+                <!--Input IP address-->
+                <Image Canvas.Left="340" Canvas.Top="245" Width="120" Height="25" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" HorizontalAlignment="Center" VerticalAlignment="Top"></Image>
+                <TextBlock Canvas.Left="342" Canvas.Top="230" Width="70" Height="14" FontFamily="Lilita One" FontSize="12" Foreground="White">IP adress:</TextBlock>
+                <TextBox x:Name="IPadressInputField" Canvas.Left="342" Canvas.Top="247" Width="110" Height="20" FontFamily="Lilita One" FontSize="16" Foreground="White" Background="Transparent" BorderThickness="0" VerticalContentAlignment="Center"></TextBox>
+
+
+                <!--Back button-->
+                <Image Canvas.Left ="205" Canvas.Top="320" Width="40" Height="40" Source="/Assets/Images/Icons/icon_arrow_back.png"></Image>
+                <Button Canvas.Left ="205" Canvas.Top="320" Width="40" Height="40" Click="BackButton_Click" Opacity="0"></Button>
+
+                <!--Connect button-->
+                <Image x:Name="ConnectButtonImage" Canvas.Left ="510" Canvas.Top="300" Width="90" Height="55" Source="/Assets/Images/Buttons/button_create.png"></Image>
+                <Button Canvas.Left ="510" Canvas.Top="300" Width="90" Height="55" Click="ConnectButton_Click" Opacity="0"></Button>
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</Page>

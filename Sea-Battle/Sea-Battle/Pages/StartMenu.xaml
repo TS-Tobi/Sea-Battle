@@ -23,9 +23,16 @@
                 <Button Canvas.Left ="720" Canvas.Top="10" Width="50" Height="50" Click="SettingsButton_Click" Opacity="0"></Button>
 
                 <!--Create button-->
-                <Image x:Name="CreateButtonImage" Canvas.Left ="325" Canvas.Top="190" Width="150" Height="100" Source="/Assets/Images/Buttons/button_create.png"></Image>
-                <Button Canvas.Left ="325" Canvas.Top="190" Width="150" Height="100" Click="CreateButton_Click" Opacity="0"></Button>
+                <!--<Image x:Name="CreateButtonImage" Canvas.Left ="325" Canvas.Top="190" Width="150" Height="100" Source="/Assets/Images/Buttons/button_create.png"></Image>
+                <Button Canvas.Left ="325" Canvas.Top="190" Width="150" Height="100" Click="CreateButton_Click" Opacity="0"></Button>-->
 
+                <!--Host button-->
+                <Image x:Name="HostButtonImage" Canvas.Left ="325" Canvas.Top="150" Width="150" Height="100" Source="/Assets/Images/Buttons/button_host.png"></Image>
+                <Button Canvas.Left ="325" Canvas.Top="150" Width="150" Height="100" Click="HostButton_Click" Opacity="0"></Button>
+
+                <!--Play button-->
+                <Image x:Name="PlayButtonImage" Canvas.Left ="325" Canvas.Top="260" Width="150" Height="100" Source="/Assets/Images/Buttons/button_play.png"></Image>
+                <Button Canvas.Left ="325" Canvas.Top="260" Width="150" Height="100" Click="PlayButton_Click" Opacity="0"></Button>
             </Canvas>
         </Viewbox>
     </Grid>
