@@ -43,7 +43,7 @@ namespace Sea_Battle.Pages
             */
 
             //Button press animation
-            ConnectButtonImage.Source = new BitmapImage(new Uri("/Assets/Images/Buttons/button_create_down.png", UriKind.RelativeOrAbsolute));
+            ConnectButtonImage.Source = new BitmapImage(new Uri("/Assets/Images/Buttons/button_connect_down.png", UriKind.RelativeOrAbsolute));
             await Task.Delay(300);
 
             StaticDataService.MainFrame.Navigate(new Uri("/Pages/PlaceShipsMenu.xaml", UriKind.Relative));

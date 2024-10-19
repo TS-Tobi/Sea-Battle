@@ -65,6 +65,9 @@
     <Compile Include="Pages\EscapeScreen.xaml.cs">
       <DependentUpon>EscapeScreen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\FightMenu.xaml.cs">
+      <DependentUpon>FightMenu.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PlaceShipsMenu.xaml.cs">
       <DependentUpon>PlaceShipsMenu.xaml</DependentUpon>
     </Compile>
@@ -94,6 +97,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\EscapeScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\FightMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -320,7 +327,17 @@
     <Resource Include="Assets\Images\Buttons\button_connect_down.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Images\Backgrounds\Popups\pop-up_window_connection.png" />
+    <Resource Include="Assets\Images\Backgrounds\Popups\popup_connection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_ready.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_ready_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Backgrounds\Popups\popup_fightmenuleft.png" />
+    <Resource Include="Assets\Images\Backgrounds\Popups\popup_fightmenuright.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

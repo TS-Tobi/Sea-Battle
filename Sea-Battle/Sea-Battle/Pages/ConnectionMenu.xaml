@@ -12,7 +12,7 @@
         <Image Source="/Assets/Images/Backgrounds/background_waves.png" Stretch="UniformToFill" ></Image>
         <Viewbox Stretch="Uniform">
             <Canvas Width="800" Height="450">
-                <Image Canvas.Left ="150" Canvas.Top="50" Width="500" Height="350" Source="/Assets/Images/Backgrounds/Popups/popup_create_game.png"></Image>
+                <Image Canvas.Left ="150" Canvas.Top="50" Width="500" Height="350" Source="/Assets/Images/Backgrounds/Popups/popup_connection.png"></Image>
 
                 <!--Input name-->
                 <Image Canvas.Left="340" Canvas.Top="160" Width="120" Height="25" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" HorizontalAlignment="Center" VerticalAlignment="Top"></Image>
@@ -31,7 +31,7 @@
                 <Button Canvas.Left ="205" Canvas.Top="320" Width="40" Height="40" Click="BackButton_Click" Opacity="0"></Button>
 
                 <!--Connect button-->
-                <Image x:Name="ConnectButtonImage" Canvas.Left ="510" Canvas.Top="300" Width="90" Height="55" Source="/Assets/Images/Buttons/button_create.png"></Image>
+                <Image x:Name="ConnectButtonImage" Canvas.Left ="510" Canvas.Top="300" Width="90" Height="55" Source="/Assets/Images/Buttons/button_connect.png"></Image>
                 <Button Canvas.Left ="510" Canvas.Top="300" Width="90" Height="55" Click="ConnectButton_Click" Opacity="0"></Button>
 
             </Canvas>
