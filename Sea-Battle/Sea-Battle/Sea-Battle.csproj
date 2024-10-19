@@ -313,5 +313,14 @@
   <ItemGroup>
     <Resource Include="Assets\Images\Buttons\button_host_down.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_connect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Buttons\button_connect_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Backgrounds\Popups\pop-up_window_connection.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
