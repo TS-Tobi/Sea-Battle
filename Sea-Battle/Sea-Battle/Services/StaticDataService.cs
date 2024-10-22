@@ -27,6 +27,10 @@ namespace Sea_Battle.Services
         //Set in CreateAGameMenu.xaml.cs in CreatButton_Click
         public static ClientConnection connection;
 
+
+        //Client
+        public static ServerConnection serverConnection;
+
         //Music
         public static SoundPlayer soundPlayer;
 

@@ -13,7 +13,7 @@ namespace Sea_Battle.Models
     public class Player
     {
         /*
-         The Player class represents a player in the game.
+         The Player class represents a player in the game for the Server.
          */
 
         public IPAddress ipAddress;

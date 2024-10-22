@@ -12,3 +12,59 @@
 31.07.2024 15:54:28 +02:00  in Message: Der Spieler Tobi-Client hat seine Verbindung zum Server bestätigt
 31.07.2024 15:54:29 +02:00 out Message: Dem Spieler Tobi-Client wurde Mittgeteilt, dass das Spiel Test startet
 31.07.2024 15:54:29 +02:00 out AssignEnemyMessage: Dem Spieler Tobi-Client wurde der Gegner Computer zugewiesen
+22.10.2024 12:27:14 +02:00  in Message: Der Spieler Tobi-Client will dem Spiel  beitreten
+22.10.2024 12:27:14 +02:00 out Message: Dem Spieler Tobi-Client wurde die Verbindung bestätigt
+22.10.2024 12:27:14 +02:00 out Message: Dem Spieler Tobi-Client wurde die Verbindung bestätigt
+22.10.2024 12:27:16 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 12:27:16 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 12:27:16 +02:00  in Message: Der Spieler Tobi-Client hat seine Verbindung zum Server bestätigt
+22.10.2024 12:28:25 +02:00  in Message: Der Spieler Tobi-Client will dem Spiel  beitreten
+22.10.2024 12:28:25 +02:00 out Message: Dem Spieler Tobi-Client wurde die Verbindung bestätigt
+22.10.2024 12:28:25 +02:00 out Message: Dem Spieler Tobi-Client wurde die Verbindung bestätigt
+22.10.2024 12:28:29 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 12:28:29 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 12:28:29 +02:00  in Message: Der Spieler Tobi-Client hat seine Verbindung zum Server bestätigt
+22.10.2024 12:28:33 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 12:28:33 +02:00  in Message: Der Spieler Tobi-Client hat seine Verbindung zum Server bestätigt
+22.10.2024 12:28:37 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 12:28:37 +02:00  in Message: Der Spieler Tobi-Client hat seine Verbindung zum Server bestätigt
+22.10.2024 12:28:37 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 12:28:41 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 12:28:41 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 12:28:41 +02:00  in Message: Der Spieler Tobi-Client hat seine Verbindung zum Server bestätigt
+22.10.2024 12:28:45 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 12:28:45 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 12:28:45 +02:00  in Message: Der Spieler Tobi-Client hat seine Verbindung zum Server bestätigt
+22.10.2024 12:28:49 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 12:28:49 +02:00  in Message: Der Spieler Tobi-Client hat seine Verbindung zum Server bestätigt
+22.10.2024 12:28:49 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 12:29:07 +02:00  in Message: Der Spieler Tobi-Client will dem Spiel  beitreten
+22.10.2024 12:29:07 +02:00 out Message: Dem Spieler Tobi-Client wurde die Verbindung bestätigt
+22.10.2024 12:29:07 +02:00 out Message: Dem Spieler Tobi-Client wurde die Verbindung bestätigt
+22.10.2024 12:29:09 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 12:29:09 +02:00 out Message: Dem Spieler Tobi-Client wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 12:29:09 +02:00  in Message: Der Spieler Tobi-Client hat seine Verbindung zum Server bestätigt
+22.10.2024 18:24:41 +02:00  in Message: Der Spieler Tobi will dem Spiel Test beitreten
+22.10.2024 18:24:41 +02:00 out Message: Dem Spieler Tobi wurde die Verbindung bestätigt
+22.10.2024 18:24:41 +02:00 out Message: Dem Spieler Tobi wurde die Verbindung bestätigt
+22.10.2024 18:24:41 +02:00 out Message: Dem Spieler Tobi wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:24:41 +02:00 out Message: Dem Spieler Tobi wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:24:45 +02:00 out Message: Dem Spieler Tobi wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:24:45 +02:00 out Message: Dem Spieler Tobi wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:24:49 +02:00 out Message: Dem Spieler Tobi wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:24:49 +02:00 out Message: Dem Spieler Tobi wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:24:53 +02:00 out Message: Dem Spieler Tobi wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:24:53 +02:00 out Message: Dem Spieler Tobi wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:24:57 +02:00 out Message: Dem Spieler Tobi wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:24:57 +02:00 out Message: Dem Spieler Tobi wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:26:22 +02:00  in Message: Der Spieler T will dem Spiel z beitreten
+22.10.2024 18:26:22 +02:00 out Message: Dem Spieler T wurde die Verbindung bestätigt
+22.10.2024 18:26:22 +02:00 out Message: Dem Spieler T wurde die Verbindung bestätigt
+22.10.2024 18:26:26 +02:00 out Message: Dem Spieler T wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:26:26 +02:00 out Message: Dem Spieler T wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:26:30 +02:00 out Message: Dem Spieler T wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:26:30 +02:00 out Message: Dem Spieler T wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:26:34 +02:00 out Message: Dem Spieler T wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:26:34 +02:00 out Message: Dem Spieler T wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:26:38 +02:00 out Message: Dem Spieler T wurde eine Liste mit den Aktuellen Spielern gesendet
+22.10.2024 18:26:38 +02:00 out Message: Dem Spieler T wurde eine Liste mit den Aktuellen Spielern gesendet

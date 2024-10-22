@@ -22,10 +22,12 @@
 
                 <!--Input IP address-->
                 <Image Canvas.Left="340" Canvas.Top="245" Width="120" Height="25" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" HorizontalAlignment="Center" VerticalAlignment="Top"></Image>
-                <TextBlock Canvas.Left="342" Canvas.Top="230" Width="70" Height="14" FontFamily="Lilita One" FontSize="12" Foreground="White">IP adress:</TextBlock>
-                <TextBox x:Name="IPadressInputField" Canvas.Left="342" Canvas.Top="247" Width="110" Height="20" FontFamily="Lilita One" FontSize="16" Foreground="White" Background="Transparent" BorderThickness="0" VerticalContentAlignment="Center"></TextBox>
+                <TextBlock Canvas.Left="342" Canvas.Top="230" Width="70" Height="14" FontFamily="Lilita One" FontSize="12" Foreground="White">IP Adress:</TextBlock>
+                <TextBox x:Name="IPAddressInputField" Canvas.Left="342" Canvas.Top="247" Width="110" Height="20" FontFamily="Lilita One" FontSize="16" Foreground="White" Background="Transparent" BorderThickness="0" VerticalContentAlignment="Center"></TextBox>
 
-
+                <!--Error TextBlock-->
+                <TextBlock x:Name="ErrorTextBlock" Canvas.Left="325" Canvas.Top="300" Width="150" FontFamily="Lilita One" FontSize="12" Foreground="Red" TextWrapping="Wrap" />
+                
                 <!--Back button-->
                 <Image Canvas.Left ="205" Canvas.Top="320" Width="40" Height="40" Source="/Assets/Images/Icons/icon_arrow_back.png"></Image>
                 <Button Canvas.Left ="205" Canvas.Top="320" Width="40" Height="40" Click="BackButton_Click" Opacity="0"></Button>
@@ -38,3 +40,4 @@
         </Viewbox>
     </Grid>
 </Page>
+
