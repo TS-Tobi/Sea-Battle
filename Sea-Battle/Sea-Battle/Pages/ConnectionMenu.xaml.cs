@@ -53,6 +53,7 @@ namespace Sea_Battle.Pages
              Checks the IPAddress and saves the user name
             */
 
+            ErrorTextBlock.Text = string.Empty;
             string errorMessage = string.Empty;
 
             //Button press animation
@@ -111,17 +112,19 @@ namespace Sea_Battle.Pages
 
                 //Wait for message from server
                 Message recMessage = StaticDataService.serverConnection.RecMsg();
-                if(recMessage.msgType == 'C')
+                if (recMessage.msgType == 'C')
                 {
-                    //TODO: Wechsel das Fenster zum Waiting Menu
-                    StaticDataService.MainFrame.Navigate(new Uri("/Pages/PlaceShipsMenu.xaml", UriKind.Relative));
+                    Application.Current.Dispatcher.Invoke(() =>
+                    {
+                        StaticDataService.MainFrame.Navigate(new Uri("/Pages/WaitingMenuClient.xaml", UriKind.Relative));
+                    });
                 }
                 else if (recMessage.msgType == 'F')
                 {
                     ErrorTextBlock.Text = "The server does not allow the connection. \n";
                     ConnectButtonImage.Source = new BitmapImage(new Uri("/Assets/Images/Buttons/button_connect.png", UriKind.RelativeOrAbsolute));
                     return;
-                }  
+                }
             }
 
             //Show error message if exists

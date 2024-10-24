@@ -84,6 +84,9 @@
     <Compile Include="Pages\WaitingMenu.xaml.cs">
       <DependentUpon>WaitingMenu.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\WaitingMenuClient.xaml.cs">
+      <DependentUpon>WaitingMenuClient.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Services\ClientConnection.cs" />
     <Compile Include="Services\ServerConnection.cs" />
     <Compile Include="Services\StaticDataService.cs" />
@@ -136,6 +139,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\WaitingMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\WaitingMenuClient.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

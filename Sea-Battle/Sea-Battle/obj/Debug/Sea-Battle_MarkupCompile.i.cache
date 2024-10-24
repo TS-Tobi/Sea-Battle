@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\App.xaml
-12146965759
+131609531666
 
-28510023224
+29-1208385455
 13-38814620
-Pages\ConnectionMenu.xaml;Pages\CreateAGameMenu.xaml;Pages\EscapeScreen.xaml;Pages\FightMenu.xaml;Pages\MainWindow.xaml;Pages\PlaceShipsMenu.xaml;Pages\SettingsMenu.xaml;Pages\StartMenu.xaml;Pages\TournamentMenu.xaml;Pages\WaitingMenu.xaml;Styles\PlayerBox.xaml;Themes\Generic.xaml;
+Pages\ConnectionMenu.xaml;Pages\CreateAGameMenu.xaml;Pages\EscapeScreen.xaml;Pages\FightMenu.xaml;Pages\MainWindow.xaml;Pages\PlaceShipsMenu.xaml;Pages\SettingsMenu.xaml;Pages\StartMenu.xaml;Pages\TournamentMenu.xaml;Pages\WaitingMenu.xaml;Pages\WaitingMenuClient.xaml;Styles\PlayerBox.xaml;Themes\Generic.xaml;
 
-False
+True
 
