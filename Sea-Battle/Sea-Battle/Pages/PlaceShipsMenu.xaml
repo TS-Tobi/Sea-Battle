@@ -11,39 +11,11 @@
     <Grid>
         <Image Source="/Assets/Images/Backgrounds/background_waves.png" Stretch="UniformToFill" ></Image>
         <Viewbox Stretch="Uniform">
-            <Canvas Width="800" Height="450">
+            <Canvas x:Name="myCanvas" Width="800" Height="450">
                 <Image Canvas.Left ="150" Canvas.Top="55" Width="500" Height="350" Source="/Assets/Images/Backgrounds/Popups/popup_raw.png"></Image>
 
-                <!--Ship selection-->
-                <TextBlock Canvas.Left="201" Canvas.Top="110" Width="35" Height="15" FontFamily="Lilita One" FontSize="12" Foreground="White">Ships:</TextBlock>
-                <Rectangle Canvas.Left="195" Canvas.Top="127" Width="150" Height="228" Fill="#808080" RadiusX="20" RadiusY="20"></Rectangle>
-
-                <!-- Grid 0 -->
-                <Grid Canvas.Left="195" Canvas.Top="127" Width="75" Height="228">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>
-
-                    <Image Grid.Row="0" Source="/Assets/Images/Icons/icon_2_ship.png" Stretch="Uniform" Margin="5"/>
-                    <Image Grid.Row="1" Source="/Assets/Images/Icons/icon_3.1_ship.png" Stretch="Uniform" Margin="5"/>
-                    <Image Grid.Row="2" Source="/Assets/Images/Icons/icon_3.2_ship.png" Stretch="Uniform" Margin="5"/>
-                </Grid>
-
-                <!--Grid 1-->
-                <Grid Canvas.Left="270" Canvas.Top="127" Width="75" Height="228">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>
-
-                    <Image Grid.Row="0" Source="/Assets/Images/Icons/icon_4_ship.png" Stretch="Uniform" Margin="5"/>
-                    <Image Grid.Row="1" Source="/Assets/Images/Icons/icon_5_ship.png" Stretch="Uniform" Margin="5"/>
-                </Grid>
-
                 <!--Game grid-->
-                <Grid Canvas.Left="370" Canvas.Top="105" Width="250" Height="250">
+                <Grid x:Name="gameGrid" Canvas.Left="370" Canvas.Top="105" Width="250" Height="250">
 
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
@@ -218,11 +190,41 @@
 
                 </Grid>
 
+                <!--Ship selection-->
+                <TextBlock Canvas.Left="201" Canvas.Top="110" Width="35" Height="15" FontFamily="Lilita One" FontSize="12" Foreground="White">Ships:</TextBlock>
+                <Rectangle Canvas.Left="195" Canvas.Top="127" Width="150" Height="228" Fill="#808080" RadiusX="20" RadiusY="20"></Rectangle>
+
+                <!--Ship row 0-->
+                <Grid Canvas.Left="195" Canvas.Top="127" Width="75" Height="228">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Image Grid.Row="0" Source="/Assets/Images/Icons/icon_2_ship.png" Stretch="Uniform" Margin="5"/>
+                    <Image Grid.Row="1" Source="/Assets/Images/Icons/icon_3.1_ship.png" Stretch="Uniform" Margin="5"/>
+                    <Image Grid.Row="2" Source="/Assets/Images/Icons/icon_3.2_ship.png" Stretch="Uniform" Margin="5"/>
+                </Grid>
+
+                <!--Ship row 1-->
+                <Grid Canvas.Left="270" Canvas.Top="127" Width="75" Height="228">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Image Grid.Row="0" Source="/Assets/Images/Icons/icon_4_ship.png" Stretch="Uniform" Margin="5"/>
+                    <Image Grid.Row="1" Source="/Assets/Images/Icons/icon_5_ship.png" Stretch="Uniform" Margin="5"/>
+                </Grid>
+
                 <!--Ready button-->
-                <Image x:Name="ReadyButtonImage" Canvas.Left ="355" Canvas.Top="390" Width="90" Height="55" Source="/Assets/Images/Buttons/button_ready.png"></Image>
-                <Button Canvas.Left ="355" Canvas.Top="390" Width="90" Height="55" Click="ReadyButton_Click" Opacity="0"></Button>
+                <Image x:Name="ReadyButtonImage" Canvas.Left ="675" Canvas.Top="395" Width="90" Height="55" Source="/Assets/Images/Buttons/button_ready.png"></Image>
+                <Button Canvas.Left ="675" Canvas.Top="395" Width="90" Height="55" Click="ReadyButton_Click" Opacity="0"></Button>
 
-
+                <!--Random button-->
+                <Image x:Name="RandomButtonImage" Canvas.Left ="25" Canvas.Top="395" Width="90" Height="55" Source="/Assets/Images/Buttons/button_random.png"></Image>
+                <Button Canvas.Left ="25" Canvas.Top="395" Width="90" Height="55" Click="RandomButton_Click" Opacity="0"></Button>
             </Canvas>
         </Viewbox>
     </Grid>

@@ -55,7 +55,8 @@ namespace Sea_Battle.Pages
             PlayButtonImage.Source = new BitmapImage(new Uri("/Assets/Images/Buttons/button_play_down.png", UriKind.RelativeOrAbsolute));
             await Task.Delay(300);
 
-            StaticDataService.MainFrame.Navigate(new Uri("/Pages/ConnectionMenu.xaml", UriKind.Relative));
+            //StaticDataService.MainFrame.Navigate(new Uri("/Pages/ConnectionMenu.xaml", UriKind.Relative));
+            StaticDataService.MainFrame.Navigate(new Uri("/Pages/PlaceShipsMenu.xaml", UriKind.Relative));
         }
         private void SettingsButton_Click(object sender, RoutedEventArgs e)
         {

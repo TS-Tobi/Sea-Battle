@@ -35,7 +35,5 @@ C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\PlaceShi
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\PlaceShipsMenu.baml
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\FightMenu.g.cs
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\FightMenu.baml
-C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\LoadMenu.g.cs
-C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\LoadMenu.baml
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\WaitingMenuClient.g.cs
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\WaitingMenuClient.baml

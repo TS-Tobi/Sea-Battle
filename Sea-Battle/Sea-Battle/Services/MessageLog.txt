@@ -268,3 +268,10 @@
 24.10.2024 15:27:38 +02:00 out Message: Dem Spieler tobi1 wurde eine Liste mit den Aktuellen Spielern gesendet
 24.10.2024 15:27:42 +02:00 out Message: Dem Spieler tobi1 wurde eine Liste mit den Aktuellen Spielern gesendet
 24.10.2024 15:27:42 +02:00 out Message: Dem Spieler tobi1 wurde eine Liste mit den Aktuellen Spielern gesendet
+24.10.2024 15:33:11 +02:00  in Message: Der Spieler Tobi will dem Spiel Test2 beitreten
+24.10.2024 15:33:11 +02:00 out Message: Dem Spieler Tobi wurde die Verbindung bestätigt
+24.10.2024 15:33:11 +02:00 out Message: Dem Spieler Tobi wurde die Verbindung bestätigt
+24.10.2024 15:33:14 +02:00 out Message: Dem Spieler Tobi wurde eine Liste mit den Aktuellen Spielern gesendet
+24.10.2024 15:33:14 +02:00 out Message: Dem Spieler Tobi wurde eine Liste mit den Aktuellen Spielern gesendet
+24.10.2024 15:33:17 +02:00 out Message: Dem Spieler Tobi wurde Mittgeteilt, dass das Spiel Test2 startet
+24.10.2024 15:33:17 +02:00 out AssignEnemyMessage: Dem Spieler Tobi wurde der Gegner Computer zugewiesen

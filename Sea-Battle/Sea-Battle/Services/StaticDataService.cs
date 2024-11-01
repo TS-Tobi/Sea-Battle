@@ -30,6 +30,7 @@ namespace Sea_Battle.Services
 
         //Client
         public static ServerConnection serverConnection;
+        public static Ship[] listOfShips;
 
         //Music
         public static SoundPlayer soundPlayer;

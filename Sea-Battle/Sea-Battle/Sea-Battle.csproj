@@ -56,6 +56,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="DropdownMenu.cs" />
+    <Compile Include="Models\Ship.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Pages\ConnectionMenu.xaml.cs">
       <DependentUpon>ConnectionMenu.xaml</DependentUpon>
