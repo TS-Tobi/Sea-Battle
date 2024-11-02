@@ -1,4 +1,5 @@
-﻿using Sea_Battle.Services;
+﻿using Sea_Battle.Pages;
+using Sea_Battle.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -45,6 +46,22 @@ namespace Sea_Battle
             if (e.Key == Key.Escape)
             {
                 ShowEscapeScreen();
+            }
+            if(e.Key == Key.D1)
+            {
+                if(StaticDataService.MainFrame.Content is PlaceShipsMenu)
+                {
+                    var currentPage = StaticDataService.MainFrame.Content as PlaceShipsMenu;
+                    currentPage.Window_KeyDown(sender, e);
+                }
+            }
+            if (e.Key == Key.D2)
+            {
+                if (StaticDataService.MainFrame.Content is PlaceShipsMenu)
+                {
+                    var currentPage = StaticDataService.MainFrame.Content as PlaceShipsMenu;
+                    currentPage.Window_KeyDown(sender, e);
+                }
             }
         }
 

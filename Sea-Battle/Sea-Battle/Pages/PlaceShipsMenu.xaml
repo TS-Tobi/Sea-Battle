@@ -6,7 +6,8 @@
       xmlns:local="clr-namespace:Sea_Battle.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="PlaceShipsMenu">
+      Title="PlaceShipsMenu"
+      KeyDown="Window_KeyDown">
 
     <Grid>
         <Image Source="/Assets/Images/Backgrounds/background_waves.png" Stretch="UniformToFill" ></Image>
@@ -69,124 +70,124 @@
                     <TextBlock Grid.Row="10" Grid.Column="0" Text="10" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold"/>
 
                     <!-- Row 1 -->
-                    <Border Grid.Row="1" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="1" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="1" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="1" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="1" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="1" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="1" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="1" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="1" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="1" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
+                    <Border Grid.Row="1" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="1" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="1" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="1" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="1" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="1" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="1" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="1" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="1" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="1" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
 
                     <!-- Row 2 -->
-                    <Border Grid.Row="2" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="2" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="2" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="2" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="2" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="2" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="2" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="2" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="2" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="2" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
+                    <Border Grid.Row="2" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="2" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="2" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="2" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="2" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="2" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="2" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="2" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="2" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="2" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
 
                     <!-- Row 3 -->
-                    <Border Grid.Row="3" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="3" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="3" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="3" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="3" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="3" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="3" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="3" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="3" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="3" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
+                    <Border Grid.Row="3" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="3" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="3" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="3" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="3" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="3" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="3" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="3" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="3" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="3" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent"  AllowDrop="True"/>
 
                     <!-- Row 4 -->
-                    <Border Grid.Row="4" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="4" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="4" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="4" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="4" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="4" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="4" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="4" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="4" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="4" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
+                    <Border Grid.Row="4" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="4" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="4" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="4" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="4" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="4" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="4" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="4" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="4" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="4" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent"  AllowDrop="True"/>
 
                     <!-- Row 5 -->
-                    <Border Grid.Row="5" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="5" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="5" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="5" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="5" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="5" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="5" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="5" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="5" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="5" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
+                    <Border Grid.Row="5" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="5" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="5" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="5" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="5" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="5" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="5" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="5" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="5" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="5" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
 
                     <!-- Row 6 -->
-                    <Border Grid.Row="6" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="6" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="6" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="6" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="6" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="6" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="6" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="6" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="6" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="6" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
+                    <Border Grid.Row="6" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="6" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="6" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="6" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="6" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="6" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="6" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="6" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="6" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="6" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
 
                     <!-- Row 7 -->
-                    <Border Grid.Row="7" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="7" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="7" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="7" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="7" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="7" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="7" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="7" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="7" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="7" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
+                    <Border Grid.Row="7" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="7" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="7" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="7" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="7" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="7" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="7" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="7" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="7" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="7" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
 
                     <!-- Row 8 -->
-                    <Border Grid.Row="8" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="8" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="8" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="8" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="8" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="8" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="8" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="8" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="8" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="8" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
+                    <Border Grid.Row="8" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="8" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="8" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="8" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="8" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="8" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="8" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="8" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="8" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="8" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
 
                     <!-- Row 9 -->
-                    <Border Grid.Row="9" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="9" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="9" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="9" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="9" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="9" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="9" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="9" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="9" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="9" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
+                    <Border Grid.Row="9" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="9" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="9" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="9" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="9" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="9" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="9" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="9" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="9" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="9" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
 
                     <!--Row 10-->
-                    <Border Grid.Row="10" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="10" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="10" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="10" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="10" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="10" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="10" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="10" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="10" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
-                    <Border Grid.Row="10" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent"/>
+                    <Border Grid.Row="10" Grid.Column="1" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="10" Grid.Column="3" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="10" Grid.Column="4" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="10" Grid.Column="2" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="10" Grid.Column="5" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="10" Grid.Column="6" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="10" Grid.Column="7" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="10" Grid.Column="8" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="10" Grid.Column="9" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
+                    <Border Grid.Row="10" Grid.Column="10" BorderBrush="White" BorderThickness="1" Background="Transparent" AllowDrop="True"/>
 
                 </Grid>
 
@@ -194,7 +195,7 @@
                 <TextBlock Canvas.Left="201" Canvas.Top="110" Width="35" Height="15" FontFamily="Lilita One" FontSize="12" Foreground="White">Ships:</TextBlock>
                 <Rectangle Canvas.Left="195" Canvas.Top="127" Width="150" Height="228" Fill="#808080" RadiusX="20" RadiusY="20"></Rectangle>
 
-                <!--Ship row 0-->
+                <!--Ship column 0-->
                 <Grid Canvas.Left="195" Canvas.Top="127" Width="75" Height="228">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
@@ -202,20 +203,20 @@
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
 
-                    <Image Grid.Row="0" Source="/Assets/Images/Icons/icon_2_ship.png" Stretch="Uniform" Margin="5"/>
-                    <Image Grid.Row="1" Source="/Assets/Images/Icons/icon_3.1_ship.png" Stretch="Uniform" Margin="5"/>
-                    <Image Grid.Row="2" Source="/Assets/Images/Icons/icon_3.2_ship.png" Stretch="Uniform" Margin="5"/>
+                    <Image x:Name="Ship_2" Grid.Row="0" Source="/Assets/Images/Icons/icon_2_ship.png" Stretch="Uniform" Margin="5" MouseDown="ShipMouseDown" MouseMove="ShipMouseMove" MouseUp="ShipMouseUp"/>
+                    <Image x:Name="Ship_3_1" Grid.Row="1" Source="/Assets/Images/Icons/icon_3.1_ship.png" Stretch="Uniform" Margin="5" MouseDown="ShipMouseDown" MouseMove="ShipMouseMove" MouseUp="ShipMouseUp"/>
+                    <Image x:Name="Ship_3_2" Grid.Row="2" Source="/Assets/Images/Icons/icon_3.2_ship.png" Stretch="Uniform" Margin="5" MouseDown="ShipMouseDown" MouseMove="ShipMouseMove" MouseUp="ShipMouseUp"/>
                 </Grid>
 
-                <!--Ship row 1-->
+                <!--Ship column 1-->
                 <Grid Canvas.Left="270" Canvas.Top="127" Width="75" Height="228">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
 
-                    <Image Grid.Row="0" Source="/Assets/Images/Icons/icon_4_ship.png" Stretch="Uniform" Margin="5"/>
-                    <Image Grid.Row="1" Source="/Assets/Images/Icons/icon_5_ship.png" Stretch="Uniform" Margin="5"/>
+                    <Image x:Name="Ship_4" Grid.Row="0" Source="/Assets/Images/Icons/icon_4_ship.png" Stretch="Uniform" Margin="5" MouseDown="ShipMouseDown" MouseMove="ShipMouseMove" MouseUp="ShipMouseUp"/>
+                    <Image x:Name="Ship_5" Grid.Row="1" Source="/Assets/Images/Icons/icon_5_ship.png" Stretch="Uniform" Margin="5" MouseDown="ShipMouseDown" MouseMove="ShipMouseMove" MouseUp="ShipMouseUp"/>
                 </Grid>
 
                 <!--Ready button-->
@@ -225,6 +226,24 @@
                 <!--Random button-->
                 <Image x:Name="RandomButtonImage" Canvas.Left ="25" Canvas.Top="395" Width="90" Height="55" Source="/Assets/Images/Buttons/button_random.png"></Image>
                 <Button Canvas.Left ="25" Canvas.Top="395" Width="90" Height="55" Click="RandomButton_Click" Opacity="0"></Button>
+                
+                <!--Place direction-->
+                <TextBlock Canvas.Left="190" Canvas.Top="410" Width="80" Height="15" FontFamily="Lilita One" FontSize="12" Foreground="White" Text="Place direction:">
+                    <TextBlock.Effect>
+                        <DropShadowEffect ShadowDepth="0" Color="Black" Opacity="1" BlurRadius="3"/>
+                    </TextBlock.Effect>
+                </TextBlock>
+                <TextBlock x:Name="PlaceDirectionTextBlockHorizontal" Canvas.Left="280" Canvas.Top="410" Width="70" Height="15" FontFamily="Lilita One" FontSize="12" Foreground="White" Text="1: Horizontal">
+                    <TextBlock.Effect>
+                        <DropShadowEffect ShadowDepth="0" Color="Black" Opacity="1" BlurRadius="3"/>
+                    </TextBlock.Effect>
+                </TextBlock>
+                <TextBlock x:Name="PlaceDirectionTextBlockVertical" Canvas.Left="360" Canvas.Top="410" Width="60" Height="15" FontFamily="Lilita One" FontSize="12" Foreground="#00ff00" Text="2: Vertical">
+                    <TextBlock.Effect>
+                        <DropShadowEffect ShadowDepth="0" Color="Black" Opacity="1" BlurRadius="3"/>
+                    </TextBlock.Effect>
+                </TextBlock>
+                
             </Canvas>
         </Viewbox>
     </Grid>

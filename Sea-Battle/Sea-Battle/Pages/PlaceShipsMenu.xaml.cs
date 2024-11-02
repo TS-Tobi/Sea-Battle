@@ -25,7 +25,13 @@ namespace Sea_Battle.Pages
     {
         public int[,] grid = new int[10, 10]; //Game field 10x10
 
+        private Point initialPosition;
+        private bool isDragging = false;
+        private Point startPoint; //Start point of the drag
+        private UIElement draggedElement; //Reference to the element being dragged
+
         private bool randomPlaced = false;
+        private int placeDirection = 2; //Default Vertikal
 
         public PlaceShipsMenu()
         {
@@ -44,6 +50,7 @@ namespace Sea_Battle.Pages
             StaticDataService.listOfShips[2] = ship3;
             StaticDataService.listOfShips[3] = ship4;
             StaticDataService.listOfShips[4] = ship5;
+
         }
 
         //User interface methods
@@ -91,7 +98,7 @@ namespace Sea_Battle.Pages
                 myCanvas.Children.Remove(image);
             }
 
-            //Set background of all cells to white
+            //Set background of all cells to transparent
             foreach (var child in gameGrid.Children)
             {
                 if (child is Border border)
@@ -122,16 +129,15 @@ namespace Sea_Battle.Pages
                 }
             }
 
-            //Output informations
-            DisplayPlacementInfomations();
-            
-
             //Puts the ships on the grid
             SetShipInGrid(StaticDataService.listOfShips[0]);
             SetShipInGrid(StaticDataService.listOfShips[1]);
             SetShipInGrid(StaticDataService.listOfShips[2]);
             SetShipInGrid(StaticDataService.listOfShips[3]);
             SetShipInGrid(StaticDataService.listOfShips[4]);
+
+            //Output informations
+            DisplayPlacementInfomations();
 
         }
         private void SetShipInGrid(Ship ship)
@@ -242,8 +248,153 @@ namespace Sea_Battle.Pages
         }
 
         //Drag and Drop placement
+        private void ShipMouseDown(object sender, MouseEventArgs e)
+        {
+            /*
+              Handles the event when the left mouse button is pressed to place a ship
+              */
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                isDragging = true;
+                startPoint = e.GetPosition(myCanvas);
+                draggedElement = sender as UIElement;
+                draggedElement.CaptureMouse();
 
-        //Helper
+                initialPosition = new Point(Canvas.GetLeft(draggedElement), Canvas.GetTop(draggedElement));
+            }
+        }
+        private void ShipMouseMove(object sender, MouseEventArgs e)
+        {
+            /*
+             Handles the event when a selected ship is moved
+             */
+
+            if (isDragging && draggedElement != null)
+            {
+                Point currentPoint = e.GetPosition(myCanvas);
+
+                //Calculate the new position
+                var transform = draggedElement.RenderTransform as TransformGroup;
+                if (transform == null)
+                {
+                    transform = new TransformGroup();
+                    draggedElement.RenderTransform = transform;
+                }
+
+                RotateTransform rotateTransform = transform.Children.OfType<RotateTransform>().FirstOrDefault();
+                if (rotateTransform == null)
+                {
+                    rotateTransform = new RotateTransform();
+                    transform.Children.Add(rotateTransform);
+                }
+
+                //Console.WriteLine("MouseMove:" + placeDirection);
+                if (placeDirection == 1)
+                {
+                    rotateTransform.Angle = 90; //Rotate 90 degrees
+                }
+                else if (placeDirection == 2 && rotateTransform.Angle == 90)
+                {
+                    rotateTransform.Angle = 0; //Set the rotation back to 0 degrees
+                }
+
+                var translateTransform = transform.Children.OfType<TranslateTransform>().FirstOrDefault();
+                if (translateTransform == null)
+                {
+                    translateTransform = new TranslateTransform();
+                    transform.Children.Add(translateTransform);
+                }
+
+                translateTransform.X = currentPoint.X - startPoint.X;
+                translateTransform.Y = currentPoint.Y - startPoint.Y;
+            }
+        }
+        private void ShipMouseUp(object sender, MouseEventArgs e)
+        {
+            /*
+             Handles the event when a selected ship is dropped
+             */
+            if (randomPlaced)
+            {
+                //Remove all existing ship images from the canvas
+                var shipTagsToRemove = new List<string> { "Ship_2", "Ship_3.1", "Ship_3.2", "Ship_4", "Ship_5" };
+                var shipImagesToRemove = myCanvas.Children.OfType<System.Windows.Controls.Image>()
+                    .Where(img => shipTagsToRemove.Contains(img.Tag?.ToString()))
+                    .ToList();
+
+                foreach (var image in shipImagesToRemove)
+                {
+                    myCanvas.Children.Remove(image);
+                }
+
+
+                //Set background of all cells to transparent
+                foreach (var child in gameGrid.Children)
+                {
+                    if (child is Border border)
+                    {
+                        border.Background = Brushes.Transparent;
+                    }
+                }
+                grid = new int[10, 10];
+                randomPlaced = false;
+            }
+
+            isDragging = false;
+            ((UIElement)sender).ReleaseMouseCapture();
+
+
+            //Check if the ship is released over the target grid
+            Point dropPosition = e.GetPosition(gameGrid);
+
+            if (gameGrid != null)
+            {
+                if (dropPosition.X < 0 || dropPosition.Y < 0 ||
+                    dropPosition.X > gameGrid.ActualWidth || dropPosition.Y > gameGrid.ActualHeight)
+                {
+                    Canvas.SetLeft(draggedElement, initialPosition.X);
+                    Canvas.SetTop(draggedElement, initialPosition.Y);
+                    draggedElement.RenderTransform = null;
+                }
+                else
+                {
+                    int columnIndex = (int)(dropPosition.X / (gameGrid.ActualWidth / gameGrid.ColumnDefinitions.Count));
+                    int rowIndex = (int)(dropPosition.Y / (gameGrid.ActualHeight / gameGrid.RowDefinitions.Count));
+
+                    string elementName = "";
+                    if (draggedElement != null)
+                    {
+                        // Elementname (sofern gesetzt)
+                        elementName = (draggedElement as FrameworkElement)?.Name;
+                    }
+
+                    switch (elementName)
+                    {
+                        case "Ship_2":
+                            PlaceShipDragAndDrop(0, columnIndex, rowIndex);
+                            break;
+
+                        case "Ship_3_1":
+                            PlaceShipDragAndDrop(1, columnIndex, rowIndex);
+                            break;
+
+                        case "Ship_3_2":
+                            PlaceShipDragAndDrop(2, columnIndex, rowIndex);
+                            break;
+
+                        case "Ship_4":
+                            PlaceShipDragAndDrop(3, columnIndex, rowIndex);
+                            break;
+
+                        case "Ship_5":
+                            PlaceShipDragAndDrop(4, columnIndex, rowIndex);
+                            break;
+                    }
+                }
+            }
+        }
+
+        //Helper methods
         private void DisplayPlacementInfomations()
         {
             /*
@@ -291,6 +442,77 @@ namespace Sea_Battle.Pages
                         }
                     }
                 }
+            }
+        }
+        private void PlaceShipDragAndDrop(int shipIndex, int columnIndex, int rowIndex)
+        {
+            /*
+             This method places a ship at its index in a grid with a given position
+             */
+
+            //Reset previous ships
+            RemoveImagesByTag(StaticDataService.listOfShips[shipIndex].name);
+
+            if ((StaticDataService.listOfShips[shipIndex].cords[0, 0] != 0))
+            {
+                for (int i = 0; i < StaticDataService.listOfShips[shipIndex].cords.GetLength(0); i++)
+                {
+                    grid[StaticDataService.listOfShips[shipIndex].cords[i, 0] - 1, StaticDataService.listOfShips[shipIndex].cords[i, 1] - 1] = 0;
+                }
+            }
+
+            if (CanPlaceShip(columnIndex, rowIndex, placeDirection, StaticDataService.listOfShips[shipIndex].length))
+            {
+                PlaceShip(StaticDataService.listOfShips[shipIndex], columnIndex, rowIndex, placeDirection);
+                SetShipInGrid(StaticDataService.listOfShips[shipIndex]);
+                draggedElement.RenderTransform = null;
+            }
+            else
+            {
+                Canvas.SetLeft(draggedElement, initialPosition.X);
+                Canvas.SetTop(draggedElement, initialPosition.Y);
+                draggedElement.RenderTransform = null;
+            }
+        }
+        private void RemoveImagesByTag(string tag)
+        {
+            /*
+             This method removes all images of a canvas with the passed tag
+             */
+            if (string.IsNullOrEmpty(tag))
+            {
+                return;
+            }
+
+            //Find all images in the canvas that have the specified tag
+            var imagesToRemove = myCanvas.Children.OfType<System.Windows.Controls.Image>()
+                .Where(img => img.Tag?.ToString() == tag)
+                .ToList();
+
+            foreach (var image in imagesToRemove)
+            {
+                myCanvas.Children.Remove(image);
+            }
+        }
+        public void  Window_KeyDown(object sneder, KeyEventArgs e)
+        {
+            /*
+             This method is called when a key is pressed in the current window
+             */
+
+            if (e.Key == Key.D1) //When key “1” is pressed
+            {
+                //PlaceDirectionTextBlockHorizontal.Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#00FF00"));
+                PlaceDirectionTextBlockHorizontal.Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#00FF00"));
+                PlaceDirectionTextBlockVertical.Foreground = Brushes.White;
+                placeDirection = 1;
+                Console.WriteLine(placeDirection);
+            }
+            else if (e.Key == Key.D2) //When key “2” is pressed
+            {
+                PlaceDirectionTextBlockVertical.Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#00FF00"));
+                PlaceDirectionTextBlockHorizontal.Foreground = Brushes.White;
+                placeDirection = 2;
             }
         }
     }

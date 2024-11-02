@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sea_Battle.Pages;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -26,6 +27,14 @@ namespace Sea_Battle
         private void OnKeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Escape)
+            {
+                MainWindow mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+                if (mainWindow != null)
+                {
+                    mainWindow.OnKeyDown(sender, e);
+                }
+            }
+            if (e.Key == Key.D1 || e.Key == Key.D2)
             {
                 MainWindow mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
                 if (mainWindow != null)
