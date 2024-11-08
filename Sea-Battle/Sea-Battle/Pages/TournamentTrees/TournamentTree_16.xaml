@@ -1,0 +1,415 @@
+﻿<Page x:Class="Sea_Battle.Pages.TournamentTrees.TournamentTree_16"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Sea_Battle.Pages.TournamentTrees"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TournamentTree_16">
+
+    <Grid>
+        <Image Source="/Assets/Images/Backgrounds/background_waves.png" Stretch="UniformToFill"></Image>
+        <Viewbox Stretch="Uniform">
+            <Canvas Width="800" Height="450">
+                <Grid x:Name="MainGrid" Width="800" Height="450">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Row 0: 1 cell -->
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100*" />
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="10,20,10,20" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="0" Width="224" Height="35">
+                            <TextBlock x:Name="Row0Column0TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+                    </Grid>
+
+                    <!-- Row 1: 2 cells -->
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50*" />
+                            <ColumnDefinition Width="50*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!--Cell 1-->
+                        <Border Grid.Column="0" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="10,25,10,25" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="0" Width="180" Height="25">
+                            <TextBlock x:Name="Row1Column0TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 2-->
+                        <Border Grid.Column="1" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="10,25,10,25" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="1" Width="180" Height="25">
+                            <TextBlock x:Name="Row1Column1TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+                    </Grid>
+
+                    <!-- Row 2: 4 cells -->
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="25*" />
+                            <ColumnDefinition Width="25*" />
+                            <ColumnDefinition Width="25*" />
+                            <ColumnDefinition Width="25*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!--Cell 1-->
+                        <Border Grid.Column="0" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="10,30,10,30" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="0" Width="140" Height="20">
+                            <TextBlock x:Name="Row2Column0TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 2-->
+                        <Border Grid.Column="1" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="10,30,10,30" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="1" Width="140" Height="20">
+                            <TextBlock x:Name="Row2Column1TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 3-->
+                        <Border Grid.Column="2" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="10,30,10,30" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="2" Width="140" Height="20">
+                            <TextBlock x:Name="Row2Column2TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 4-->
+                        <Border Grid.Column="3" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="10,30,10,30" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="3" Width="140" Height="20">
+                            <TextBlock x:Name="Row2Column3TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+                    </Grid>
+
+                    <!-- Row 3: 8 cells -->
+                    <Grid Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="12.5*" />
+                            <ColumnDefinition Width="12.5*" />
+                            <ColumnDefinition Width="12.5*" />
+                            <ColumnDefinition Width="12.5*" />
+                            <ColumnDefinition Width="12.5*" />
+                            <ColumnDefinition Width="12.5*" />
+                            <ColumnDefinition Width="12.5*" />
+                            <ColumnDefinition Width="12.5*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!--Cell 1-->
+                        <Border Grid.Column="0" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="10,35,10,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="0" Width="73" Height="13">
+                            <TextBlock x:Name="Row3Column0TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 2-->
+                        <Border Grid.Column="1" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="10,35,10,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="1"  Width="73" Height="13">
+                            <TextBlock x:Name="Row3Column1TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 3-->
+                        <Border Grid.Column="2" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="10,35,10,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="2"  Width="73" Height="13">
+                            <TextBlock x:Name="Row3Column2TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 4-->
+                        <Border Grid.Column="3" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="10,35,10,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="3"  Width="73" Height="13">
+                            <TextBlock x:Name="Row3Column3TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 5-->
+                        <Border Grid.Column="4" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="10,35,10,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="4"  Width="73" Height="13">
+                            <TextBlock x:Name="Row3Column4TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 6-->
+                        <Border Grid.Column="5" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="10,35,10,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="5" Width="73" Height="13">
+                            <TextBlock x:Name="Row3Column5TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 7-->
+                        <Border Grid.Column="6" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="10,35,10,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="6"  Width="73" Height="13">
+                            <TextBlock x:Name="Row3Column6TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 8-->
+                        <Border Grid.Column="7" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="10,35,10,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="7"  Width="73" Height="13">
+                            <TextBlock x:Name="Row3Column7TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+                    </Grid>
+
+                    <!-- Row 4: 16 cells -->
+                    <Grid Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="6.25*" />
+                            <ColumnDefinition Width="6.25*" />
+                            <ColumnDefinition Width="6.25*" />
+                            <ColumnDefinition Width="6.25*" />
+                            <ColumnDefinition Width="6.25*" />
+                            <ColumnDefinition Width="6.25*" />
+                            <ColumnDefinition Width="6.25*" />
+                            <ColumnDefinition Width="6.25*" />
+                            <ColumnDefinition Width="6.25*" />
+                            <ColumnDefinition Width="6.25*" />
+                            <ColumnDefinition Width="6.25*" />
+                            <ColumnDefinition Width="6.25*" />
+                            <ColumnDefinition Width="6.25*" />
+                            <ColumnDefinition Width="6.25*" />
+                            <ColumnDefinition Width="6.25*" />
+                            <ColumnDefinition Width="6.25*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!--Cell 1-->
+                        <Border Grid.Column="0" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="0" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column0TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 2-->
+                        <Border Grid.Column="1" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="1" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column1TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 3-->
+                        <Border Grid.Column="2" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="2" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column2TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 4-->
+                        <Border Grid.Column="3" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="3" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column3TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 5-->
+                        <Border Grid.Column="4" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="4" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column4TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 6-->
+                        <Border Grid.Column="5" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="5" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column5TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 7-->
+                        <Border Grid.Column="6" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="6" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column6TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 8-->
+                        <Border Grid.Column="7" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="7" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column7TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 9-->
+                        <Border Grid.Column="8" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="8" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column8TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 10-->
+                        <Border Grid.Column="9" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="9" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column9TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 11-->
+                        <Border Grid.Column="10" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="10" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column10TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 12-->
+                        <Border Grid.Column="11" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="11" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column11TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 13-->
+                        <Border Grid.Column="12" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="12" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column12TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 14-->
+                        <Border Grid.Column="13" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="13" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column13TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 15-->
+                        <Border Grid.Column="14" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="14" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column14TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                        <!--Cell 16-->
+                        <Border Grid.Column="15" BorderBrush="Transparent" BorderThickness="1">
+                            <Image Margin="3,35,3,35" Source="/Assets/Images/Backgrounds/Input_fields/input_field_raw.png" Stretch="Uniform" />
+                        </Border>
+                        <Viewbox Grid.Column="15" Width="38" Height="8">
+                            <TextBlock x:Name="Row4Column15TextBlock" FontFamily="Lilita One" FontSize="12" Foreground="White"></TextBlock>
+                        </Viewbox>
+
+                    </Grid>
+
+                </Grid>
+
+                <!--Linien-->
+                <!--Row 0 - 1-->
+                <Line X1="400" Y1="69" X2="400" Y2="90" Stroke="White" StrokeThickness="4"/>
+                <Line X1="200" Y1="90" X2="200" Y2="116" Stroke="White" StrokeThickness="4"/>
+                <Line X1="600" Y1="90" X2="600" Y2="116" Stroke="White" StrokeThickness="4"/>
+
+                <Line X1="198" Y1="90" X2="602" Y2="90" Stroke="White" StrokeThickness="4"/>
+
+                <!--Row 1 - 2-->
+                <Line X1="200" Y1="154" X2="200" Y2="180" Stroke="White" StrokeThickness="4"/>
+                <Line X1="600" Y1="154" X2="600" Y2="180" Stroke="White" StrokeThickness="4"/>
+
+                <Line X1="100" Y1="180" X2="100" Y2="211" Stroke="White" StrokeThickness="4"/>
+                <Line X1="300" Y1="180" X2="300" Y2="211" Stroke="White" StrokeThickness="4"/>
+                <Line X1="500" Y1="180" X2="500" Y2="211" Stroke="White" StrokeThickness="4"/>
+                <Line X1="700" Y1="180" X2="700" Y2="211" Stroke="White" StrokeThickness="4"/>
+
+                <Line X1="98" Y1="180" X2="302" Y2="180" Stroke="White" StrokeThickness="4"/>
+                <Line X1="498" Y1="180" X2="702" Y2="180" Stroke="White" StrokeThickness="4"/>
+
+                <!--Row 2 - 3-->
+                <Line X1="100" Y1="239" X2="100" Y2="270" Stroke="White" StrokeThickness="4"/>
+                <Line X1="300" Y1="239" X2="300" Y2="270" Stroke="White" StrokeThickness="4"/>
+                <Line X1="500" Y1="239" X2="500" Y2="270" Stroke="White" StrokeThickness="4"/>
+                <Line X1="700" Y1="239" X2="700" Y2="270" Stroke="White" StrokeThickness="4"/>
+
+                <Line X1="50" Y1="270" X2="50" Y2="307" Stroke="White" StrokeThickness="4"/>
+                <Line X1="150" Y1="270" X2="150" Y2="307" Stroke="White" StrokeThickness="4"/>
+                <Line X1="250" Y1="270" X2="250" Y2="307" Stroke="White" StrokeThickness="4"/>
+                <Line X1="350" Y1="270" X2="350" Y2="307" Stroke="White" StrokeThickness="4"/>
+                <Line X1="450" Y1="270" X2="450" Y2="307" Stroke="White" StrokeThickness="4"/>
+                <Line X1="550" Y1="270" X2="550" Y2="307" Stroke="White" StrokeThickness="4"/>
+                <Line X1="650" Y1="270" X2="650" Y2="307" Stroke="White" StrokeThickness="4"/>
+                <Line X1="750" Y1="270" X2="750" Y2="307" Stroke="White" StrokeThickness="4"/>
+
+
+                <Line X1="48" Y1="270" X2="152" Y2="270" Stroke="White" StrokeThickness="4"/>
+                <Line X1="248" Y1="270" X2="352" Y2="270" Stroke="White" StrokeThickness="4"/>
+                <Line X1="448" Y1="270" X2="552" Y2="270" Stroke="White" StrokeThickness="4"/>
+                <Line X1="648" Y1="270" X2="752" Y2="270" Stroke="White" StrokeThickness="4"/>
+
+                <!--Row 3 - 4-->
+                <Line X1="50" Y1="323" X2="50" Y2="360" Stroke="White" StrokeThickness="4"/>
+                <Line X1="150" Y1="323" X2="150" Y2="360" Stroke="White" StrokeThickness="4"/>
+                <Line X1="250" Y1="323" X2="250" Y2="360" Stroke="White" StrokeThickness="4"/>
+                <Line X1="350" Y1="323" X2="350" Y2="360" Stroke="White" StrokeThickness="4"/>
+                <Line X1="450" Y1="323" X2="450" Y2="360" Stroke="White" StrokeThickness="4"/>
+                <Line X1="550" Y1="323" X2="550" Y2="360" Stroke="White" StrokeThickness="4"/>
+                <Line X1="650" Y1="323" X2="650" Y2="360" Stroke="White" StrokeThickness="4"/>
+                <Line X1="750" Y1="323" X2="750" Y2="360" Stroke="White" StrokeThickness="4"/>
+
+                <Line X1="25" Y1="360" X2="25" Y2="401" Stroke="White" StrokeThickness="2"/>
+                <Line X1="75" Y1="360" X2="75" Y2="401" Stroke="White" StrokeThickness="2"/>
+                <Line X1="125" Y1="360" X2="125" Y2="401" Stroke="White" StrokeThickness="2"/>
+                <Line X1="175" Y1="360" X2="175" Y2="401" Stroke="White" StrokeThickness="2"/>
+                <Line X1="225" Y1="360" X2="225" Y2="401" Stroke="White" StrokeThickness="2"/>
+                <Line X1="275" Y1="360" X2="275" Y2="401" Stroke="White" StrokeThickness="2"/>
+                <Line X1="325" Y1="360" X2="325" Y2="401" Stroke="White" StrokeThickness="2"/>
+                <Line X1="375" Y1="360" X2="375" Y2="401" Stroke="White" StrokeThickness="2"/>
+                <Line X1="425" Y1="360" X2="425" Y2="401" Stroke="White" StrokeThickness="2"/>
+                <Line X1="475" Y1="360" X2="475" Y2="401" Stroke="White" StrokeThickness="2"/>
+                <Line X1="525" Y1="360" X2="525" Y2="401" Stroke="White" StrokeThickness="2"/>
+                <Line X1="575" Y1="360" X2="575" Y2="401" Stroke="White" StrokeThickness="2"/>
+                <Line X1="625" Y1="360" X2="625" Y2="401" Stroke="White" StrokeThickness="2"/>
+                <Line X1="675" Y1="360" X2="675" Y2="401" Stroke="White" StrokeThickness="2"/>
+                <Line X1="725" Y1="360" X2="725" Y2="401" Stroke="White" StrokeThickness="2"/>
+                <Line X1="775" Y1="360" X2="775" Y2="401" Stroke="White" StrokeThickness="2"/>
+
+
+                <Line X1="24" Y1="360" X2="76" Y2="360" Stroke="White" StrokeThickness="2"/>
+                <Line X1="124" Y1="360" X2="176" Y2="360" Stroke="White" StrokeThickness="2"/>
+                <Line X1="224" Y1="360" X2="276" Y2="360" Stroke="White" StrokeThickness="2"/>
+                <Line X1="324" Y1="360" X2="376" Y2="360" Stroke="White" StrokeThickness="2"/>
+                <Line X1="424" Y1="360" X2="476" Y2="360" Stroke="White" StrokeThickness="2"/>
+                <Line X1="524" Y1="360" X2="576" Y2="360" Stroke="White" StrokeThickness="2"/>
+                <Line X1="624" Y1="360" X2="676" Y2="360" Stroke="White" StrokeThickness="2"/>
+                <Line X1="724" Y1="360" X2="776" Y2="360" Stroke="White" StrokeThickness="2"/>
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</Page>

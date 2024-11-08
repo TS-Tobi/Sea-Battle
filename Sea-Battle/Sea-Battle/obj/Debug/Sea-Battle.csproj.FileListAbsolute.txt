@@ -37,3 +37,11 @@ C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\FightMen
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\FightMenu.baml
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\WaitingMenuClient.g.cs
 C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\WaitingMenuClient.baml
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\TournamentTrees\TournamentTree_16.g.cs
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\TournamentTrees\TournamentTree_2.g.cs
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\TournamentTrees\TournamentTree_4.g.cs
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\TournamentTrees\TournamentTree_8.g.cs
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\TournamentTrees\TournamentTree_16.baml
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\TournamentTrees\TournamentTree_2.baml
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\TournamentTrees\TournamentTree_4.baml
+C:\Users\tb_sc\Desktop\Sea-Battle\Sea-Battle\Sea-Battle\obj\Debug\Pages\TournamentTrees\TournamentTree_8.baml
