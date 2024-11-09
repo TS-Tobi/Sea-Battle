@@ -24,7 +24,7 @@ namespace Sea_Battle.Pages
     /// </summary>
     public partial class ConnectionMenu : Page
     {
-        public string UserName;
+        public string userName;
         public IPAddress IPAddress;
         public bool CorrectIPAddress;
         public bool CorrectUserName;
@@ -78,7 +78,8 @@ namespace Sea_Battle.Pages
             {
                 CorrectUserName = true;
                 //Save the user name
-                UserName = NameInputField.Text;
+                userName = NameInputField.Text;
+                StaticDataService.userName = userName;
             }
             else
             {
@@ -100,7 +101,7 @@ namespace Sea_Battle.Pages
                     StaticDataService.serverConnection = new ServerConnection(IPAddress.ToString(), 50000);
 
                     //Send join message to the server
-                    Message JoinMessage = new Message(UserName, DateTimeOffset.Now, 'J');
+                    Message JoinMessage = new Message(userName, DateTimeOffset.Now, 'J');
                     StaticDataService.serverConnection.SendMsg(JoinMessage);
                 }
                 catch (Exception ex)

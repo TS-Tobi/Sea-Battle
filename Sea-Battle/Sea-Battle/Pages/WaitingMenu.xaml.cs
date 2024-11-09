@@ -57,14 +57,26 @@ namespace Sea_Battle.Pages
              shows a button animation and navigates to the TournamentMenu page.
              */
 
-            //Ends the thread that checks the connection to the clients
-            StaticDataService.connection.CheckClientConnectionEnd();
-
             //Button press animation
             StartButtonImage.Source = new BitmapImage(new Uri("/Assets/Images/Buttons/button_start_down.png", UriKind.RelativeOrAbsolute));
             await Task.Delay(300);
 
-            StaticDataService.MainFrame.Navigate(new Uri("/Pages/TournamentMenu.xaml", UriKind.Relative));
+            if (CheckIfAllPlayersReady())
+            {
+                //Ends the thread that checks the connection to the clients
+                StaticDataService.connection.CheckClientConnectionEnd();
+
+                //Switch to the appropiate TournamentTree for the number of players
+                int currentPlayerNumber = StaticDataService.PlayerList.Count;
+                int tournamentTreeSize = SelectTournamentTreeSize(currentPlayerNumber);
+
+                string tournamentTreePath = "/Pages/TournamentTrees/TournamentTree_" + tournamentTreeSize + ".xaml";
+                StaticDataService.MainFrame.Navigate(new Uri(tournamentTreePath, UriKind.Relative));
+            }
+            else
+            {
+                StartButtonImage.Source = new BitmapImage(new Uri("/Assets/Images/Buttons/button_start.png", UriKind.RelativeOrAbsolute));
+            }
         }
         private string GetLocalIPAddress()
         {
@@ -130,6 +142,37 @@ namespace Sea_Battle.Pages
             PlayerContainer.Children.Add(playerBox);
 
             playerBox.Margin = new Thickness(6, 0, 6, 6);
+        }
+        private bool CheckIfAllPlayersReady()
+        {
+            if (StaticDataService.PlayerList == null || StaticDataService.PlayerList.Count == 0)
+            {
+                ErrorTextBlock.Text = "Player list is empty";
+                return false;
+            }
+
+            foreach (Player player in StaticDataService.PlayerList)
+            {
+                if (!player.status)
+                {
+                    ErrorTextBlock.Text = "Not all players are ready: " + player.userName;
+                    return false;
+                }
+            }
+            return true;
+        }
+        private int SelectTournamentTreeSize(int currentPlayerNumber)
+        {
+            int[] tournamentTreeSizes = { 2, 4, 8, 16 };
+
+            foreach (int size in tournamentTreeSizes)
+            {
+                if(currentPlayerNumber <= size)
+                {
+                    return size;
+                }
+            }
+            return 16;
         }
     }
 }

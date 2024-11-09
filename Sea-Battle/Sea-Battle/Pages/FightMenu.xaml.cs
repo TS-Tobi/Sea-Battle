@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sea_Battle.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,18 @@ namespace Sea_Battle.Pages
         public FightMenu()
         {
             InitializeComponent();
+
+            SetGameInformation();
+        }
+
+        private void SetGameInformation()
+        {
+            /*
+             This method displays the game information such as player name and opponent name
+             */
+
+            PlayerName.Text = StaticDataService.userName;
+
         }
     }
 }

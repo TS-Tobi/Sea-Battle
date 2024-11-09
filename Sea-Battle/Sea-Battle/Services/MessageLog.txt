@@ -275,3 +275,20 @@
 24.10.2024 15:33:14 +02:00 out Message: Dem Spieler Tobi wurde eine Liste mit den Aktuellen Spielern gesendet
 24.10.2024 15:33:17 +02:00 out Message: Dem Spieler Tobi wurde Mittgeteilt, dass das Spiel Test2 startet
 24.10.2024 15:33:17 +02:00 out AssignEnemyMessage: Dem Spieler Tobi wurde der Gegner Computer zugewiesen
+09.11.2024 12:31:55 +01:00  in Message: Der Spieler TestClient will dem Spiel TestServer beitreten
+09.11.2024 12:31:55 +01:00 out Message: Dem Spieler TestClient wurde die Verbindung bestätigt
+09.11.2024 12:31:55 +01:00 out Message: Dem Spieler TestClient wurde die Verbindung bestätigt
+09.11.2024 12:31:56 +01:00 out Message: Dem Spieler TestClient wurde eine Liste mit den Aktuellen Spielern gesendet
+09.11.2024 12:31:56 +01:00 out Message: Dem Spieler TestClient wurde eine Liste mit den Aktuellen Spielern gesendet
+09.11.2024 12:32:00 +01:00 out Message: Dem Spieler TestClient wurde eine Liste mit den Aktuellen Spielern gesendet
+09.11.2024 12:32:00 +01:00 out Message: Dem Spieler TestClient wurde eine Liste mit den Aktuellen Spielern gesendet
+09.11.2024 12:34:37 +01:00  in Message: Der Spieler T will dem Spiel Test beitreten
+09.11.2024 12:34:37 +01:00 out Message: Dem Spieler T wurde die Verbindung bestätigt
+09.11.2024 12:34:37 +01:00 out Message: Dem Spieler T wurde die Verbindung bestätigt
+09.11.2024 12:34:38 +01:00 out Message: Dem Spieler T wurde eine Liste mit den Aktuellen Spielern gesendet
+09.11.2024 12:34:38 +01:00 out Message: Dem Spieler T wurde eine Liste mit den Aktuellen Spielern gesendet
+09.11.2024 12:46:57 +01:00  in Message: Der Spieler Tobias will dem Spiel TestServer beitreten
+09.11.2024 12:46:57 +01:00 out Message: Dem Spieler Tobias wurde die Verbindung bestätigt
+09.11.2024 12:46:57 +01:00 out Message: Dem Spieler Tobias wurde die Verbindung bestätigt
+09.11.2024 12:46:58 +01:00 out Message: Dem Spieler Tobias wurde eine Liste mit den Aktuellen Spielern gesendet
+09.11.2024 12:46:58 +01:00 out Message: Dem Spieler Tobias wurde eine Liste mit den Aktuellen Spielern gesendet

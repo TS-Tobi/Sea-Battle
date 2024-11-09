@@ -64,7 +64,15 @@ namespace Sea_Battle.Pages
             ReadyButtonImage.Source = new BitmapImage(new Uri("/Assets/Images/Buttons/button_ready_down.png", UriKind.RelativeOrAbsolute));
             await Task.Delay(300);
 
-            StaticDataService.MainFrame.Navigate(new Uri("/Pages/FightMenu.xaml", UriKind.Relative));
+            if (ChecksIfAllShipsPlaced())
+            {
+                StaticDataService.MainFrame.Navigate(new Uri("/Pages/FightMenu.xaml", UriKind.Relative));
+            }
+            else
+            {
+                ReadyButtonImage.Source = new BitmapImage(new Uri("/Assets/Images/Buttons/button_ready.png", UriKind.RelativeOrAbsolute));
+            }
+            
         }
         private async void RandomButton_Click(object sender, RoutedEventArgs e)
         {
@@ -493,6 +501,21 @@ namespace Sea_Battle.Pages
             {
                 myCanvas.Children.Remove(image);
             }
+        }
+        private bool ChecksIfAllShipsPlaced()
+        {
+           foreach(Ship ship in StaticDataService.listOfShips)
+           {
+                for (int i = 0; i < ship.length; i++)
+                {
+                    if (ship.cords[i, 0] == 0)
+                    {
+                        ErrorTextBlock.Text = "Not all Ships were placed: " + ship.name;
+                        return false;
+                    }
+                }
+           }
+            return true;
         }
         public void  Window_KeyDown(object sneder, KeyEventArgs e)
         {

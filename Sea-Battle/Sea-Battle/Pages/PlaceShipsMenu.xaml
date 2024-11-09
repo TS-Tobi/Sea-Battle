@@ -226,7 +226,7 @@
                 <!--Random button-->
                 <Image x:Name="RandomButtonImage" Canvas.Left ="25" Canvas.Top="395" Width="90" Height="55" Source="/Assets/Images/Buttons/button_random.png"></Image>
                 <Button Canvas.Left ="25" Canvas.Top="395" Width="90" Height="55" Click="RandomButton_Click" Opacity="0"></Button>
-                
+
                 <!--Place direction-->
                 <TextBlock Canvas.Left="190" Canvas.Top="410" Width="80" Height="15" FontFamily="Lilita One" FontSize="12" Foreground="White" Text="Place direction:">
                     <TextBlock.Effect>
@@ -243,7 +243,11 @@
                         <DropShadowEffect ShadowDepth="0" Color="Black" Opacity="1" BlurRadius="3"/>
                     </TextBlock.Effect>
                 </TextBlock>
-                
+
+                <!--Error TextBlock-->
+                <TextBlock x:Name="ErrorTextBlock" Canvas.Left="483" Canvas.Top="414" Width="150" FontFamily="Lilita One" FontSize="12" Foreground="Red" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+
             </Canvas>
         </Viewbox>
     </Grid>

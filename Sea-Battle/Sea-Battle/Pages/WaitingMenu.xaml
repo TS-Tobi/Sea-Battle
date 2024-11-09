@@ -34,6 +34,9 @@
                 <Image Canvas.Left ="330" Canvas.Top="395" Width="140" Height="45" Source="/Assets/Images/Backgrounds/Popups/popup_ipaddress.png"></Image>
                 <TextBlock x:Name ="ServerIPAddress" Canvas.Left ="365" Canvas.Top="409" Width="100" Height="18" FontFamily="Lilita One" FontSize="13" Foreground="White" TextAlignment="Center">127.0.0.1</TextBlock>
 
+                <!--Error TextBlock-->
+                <TextBlock x:Name="ErrorTextBlock" Canvas.Left="510" Canvas.Top="416" Width="150" FontFamily="Lilita One" FontSize="12" Foreground="Red" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
             </Canvas>
         </Viewbox>
     </Grid>
