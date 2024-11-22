@@ -58,6 +58,7 @@
     <Compile Include="DropdownMenu.cs" />
     <Compile Include="Helpers\TournamentTree.cs" />
     <Compile Include="Models\Ship.cs" />
+    <Compile Include="Models\TournamentLoop.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Pages\ConnectionMenu.xaml.cs">
       <DependentUpon>ConnectionMenu.xaml</DependentUpon>

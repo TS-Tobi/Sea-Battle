@@ -60,7 +60,6 @@ namespace Sea_Battle.Pages
                             break;
 
                         case 'X':
-                            // Navigation muss ebenfalls auf dem UI-Thread ausgeführt werden
                             Application.Current.Dispatcher.Invoke(() =>
                             {
                                 StaticDataService.MainFrame.Navigate(new Uri("/Pages/PlaceShipsMenu.xaml", UriKind.Relative));
@@ -70,7 +69,6 @@ namespace Sea_Battle.Pages
                 }
                 catch (Exception ex)
                 {
-                    // Fehlerbehandlung, falls nötig
                     Console.WriteLine($"Error receiving server response: {ex.Message}");
                 }
             }

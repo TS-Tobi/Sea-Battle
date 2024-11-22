@@ -72,7 +72,7 @@ namespace Sea_Battle.Services
                             Player joinedPlayer = new Player(receivedMessage.user, clientSocket, clientIP);
                             Message.MessageLog(receivedMessage, " in", receivedMessage.user);
 
-                            if (StaticDataService.PlayerList.Count == StaticDataService.currentServer.maxPlayers)
+                            if (StaticDataService.PlayerList.Count == StaticDataService.currentServer.maxPlayers || StaticDataService.currentServer.running)
                             {
                                 //Send back connection failed to the client
                                 Message connectionFailedMessage = new Message("Server", DateTimeOffset.Now, 'F');
@@ -113,6 +113,25 @@ namespace Sea_Battle.Services
                                 }
                             }
                             break;
+
+                        //Gameloop
+                        case 'P':
+                            Message.MessageLog(receivedMessage, " in", receivedMessage.user);
+
+                            //Checks if the server ist running
+                            if (StaticDataService.currentServer.running)
+                            {
+                                foreach (Player player in StaticDataService.PlayerList)
+                                {
+                                    //Set the player status to true
+                                    if (receivedMessage.user == player.userName)
+                                    {
+                                        player.status = true;
+                                    }
+                                }
+                            }
+                            break;
+
                         default:
                             break;
                     }

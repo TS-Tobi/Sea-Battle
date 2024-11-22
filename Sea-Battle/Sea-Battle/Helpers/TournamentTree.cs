@@ -21,5 +21,6 @@ namespace Sea_Battle.Helpers
                 textBlockObj.Text = playerName;
             }
         }
+
     }
 }

@@ -16,6 +16,7 @@ namespace Sea_Battle.Models
         public string serverName;
         public int maxPlayers;
         public string gameType;
+        public bool running = false;
 
         public Server(string serverName, int maxPlayers, string gameType)
         {
