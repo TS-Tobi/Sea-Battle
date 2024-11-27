@@ -39,12 +39,16 @@ namespace Sea_Battle.Pages.TournamentTrees
             rounds = 1;
             maxPlayer = 2;
 
+            playerArray = StaticDataService.PlayerList.ToArray();
+
             //Set the server to running
             StaticDataService.currentServer.running = true;
 
             //Send game start message to all clients
             Message gameStartMessage = new Message("Server", DateTimeOffset.Now, 'X');
             StaticDataService.currentServer.SendMessageToAllCLients(gameStartMessage);
+
+            Console.WriteLine("X an Alle Clients das Spiel beginnt");
 
             Task.Delay(100).ContinueWith(_ => ServerGameLoop());
         }
@@ -60,16 +64,13 @@ namespace Sea_Battle.Pages.TournamentTrees
                 {
                     SetTextInTournamentTree(rounds, i, nextRoundPlayerNamesArray[i]);
                 }
+                Console.WriteLine("Spieler namen in Tunierbaum gesetzt");
 
                 //Reset the current enemy from every client
                 foreach (Player player in StaticDataService.PlayerList)
                 {
                     player.currentEnemy = "";
                 }
-
-                //Send new round message to all clients
-                Message newRoundMessage = new Message("Server", DateTimeOffset.Now, 'R');
-                StaticDataService.currentServer.SendMessageToAllCLients(newRoundMessage);
 
                 //Set the current enemy for every client and send the enemyMessage and reset the status
                 AssignEnemyToEveryClient();
@@ -79,6 +80,7 @@ namespace Sea_Battle.Pages.TournamentTrees
                     player.SendMessageToClient(assignedEnemymessage);
                     player.status = false;
                 }
+                Console.WriteLine("E an jeden Client gesendet Enemy zugewiesen");
 
                 while (!StaticDataService.PlayerList.All(player => player.status))
                 {
@@ -87,8 +89,15 @@ namespace Sea_Battle.Pages.TournamentTrees
                 }
                 Console.WriteLine("All players are ready!");
 
+                //Send new round message to all clients
+                Message newRoundMessage = new Message("Server", DateTimeOffset.Now, 'R');
+                StaticDataService.currentServer.SendMessageToAllCLients(newRoundMessage);
+                Console.WriteLine("R Message an alle CLients gesendet neue Runde");
+
                 //Sende a message to the client which begins
                 DecidesWhichPlayerStarts();
+
+                Console.WriteLine("T zum Client welcher anfängt its your turn");
 
                 //TODO: Warten wann die nächste Runde beginnen kann
 

@@ -35,6 +35,14 @@ namespace Sea_Battle.Pages
              */
 
             PlayerName.Text = StaticDataService.userName;
+            if(StaticDataService.currentEnemyName != string.Empty)
+            {
+                EnemyName.Text = StaticDataService.currentEnemyName;
+            }
+            else
+            {
+                EnemyName.Text = "Name not Found";
+            }
 
         }
     }

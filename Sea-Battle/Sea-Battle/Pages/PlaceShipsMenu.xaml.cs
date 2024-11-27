@@ -51,7 +51,46 @@ namespace Sea_Battle.Pages
             StaticDataService.listOfShips[3] = ship4;
             StaticDataService.listOfShips[4] = ship5;
 
+            CheckServerResponse();
+
         }
+        //Server connection
+        private async void CheckServerResponse()
+        {
+            while (true)
+            {
+                try
+                {
+                    byte[] message = new byte[1024];
+
+                    await Task.Run(() =>
+                    {
+                        StaticDataService.serverConnection.clientSocket.Receive(message);
+                    });
+
+                    Message recMessage = Message.JsonStringToMessage(Encoding.ASCII.GetString(message));
+
+                    switch (recMessage.msgType)
+                    {
+                        case 'E':
+                            AssignEnemyMessage recAssignEnemyMessage = AssignEnemyMessage.JsonStringToAssignEnemyMessage(Encoding.ASCII.GetString(message));
+                            StaticDataService.currentEnemyName = recAssignEnemyMessage.assignedEnemy;
+                            break;
+
+                        case 'R':
+                            Console.WriteLine("Client: Es beginnt eine neue Runde");
+                            StaticDataService.MainFrame.Navigate(new Uri("/Pages/FightMenu.xaml", UriKind.Relative));
+                            break;
+
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error receiving server response: {ex.Message}");
+                }
+            }
+        }
+
 
         //User interface methods
         private async void ReadyButton_Click(object sender, RoutedEventArgs e)
@@ -66,7 +105,12 @@ namespace Sea_Battle.Pages
 
             if (ChecksIfAllShipsPlaced())
             {
-                StaticDataService.MainFrame.Navigate(new Uri("/Pages/FightMenu.xaml", UriKind.Relative));
+                //StaticDataService.MainFrame.Navigate(new Uri("/Pages/FightMenu.xaml", UriKind.Relative));
+
+                Message readyMessage = new Message(StaticDataService.userName, DateTimeOffset.Now, 'P');
+                StaticDataService.serverConnection.SendMsg(readyMessage);
+
+                ReadyButtonImage.Source = new BitmapImage(new Uri("/Assets/Images/Buttons/button_ready.png", UriKind.RelativeOrAbsolute));
             }
             else
             {
